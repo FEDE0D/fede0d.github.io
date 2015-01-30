@@ -1,0 +1,18 @@
+body{
+	/*color: #FFFFFF;*/
+	background-color: #000111;
+}
+
+.pagerdiv{
+	width: 800px;
+	min-height: 100px;
+	background-repeat: repeat-y;
+	background-size: 800px;
+	
+	padding: 25px;
+	
+}
+
+.pagertop{ background-image: url('../img/top.png'); }
+.pagermiddle{ background-image: url('../img/middle.png'); }
+.pagerbottom{ background-image: url('../img/bottom.png'); }
