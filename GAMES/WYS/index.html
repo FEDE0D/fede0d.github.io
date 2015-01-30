@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Watch Your Step! - Pixelated Gears 2014</title>
+    
+    <script type="text/javascript" src="src/game/config.js"></script>
+    <script type="text/javascript" src="src/engine/core.js"></script>
+    
+    
+    <script type="text/javascript" src="src/game/assets.js"></script>
+    <script type="text/javascript" src="src/game/main.js"></script>
+    <style type="text/css">
+    	body {
+			font-family: sans-serif;
+			color: white;
+			font-size: 26px;
+		}
+    </style>
+</head>
+<body>
+
+	<canvas id="panda_canvas" width="400" height="600"></canvas>
+	<script>  
+		function handleMouseDown(evt) {  
+			window.focus();
+			evt.preventDefault();
+			evt.stopPropagation();
+			evt.target.style.cursor = 'default';
+		}
+		document.getElementById('panda_canvas').addEventListener('mousedown',handleMouseDown, false);
+	</script>
+
+</body>
+</html>
