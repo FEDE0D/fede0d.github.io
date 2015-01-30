@@ -1,0 +1,102 @@
+@font-face{
+	font-family: Cinzel;
+	src: url('https://dl.dropboxusercontent.com/u/274954519/anmer/fonts/Cinzel-Regular.ttf');
+	/*src: url('fonts/Cinzel-Bold.ttf');
+	src: url('fonts/Cinzel-Black.ttf');*/
+}
+
+html,body{ 
+	margin:0; padding:0; height:100%; width:100%; 
+}
+
+body{
+	background-color: rgba(224, 222, 215, 1);
+	text-align:center;
+	/*background-image: url('https://dl.dropboxusercontent.com/u/274954519/anmer/img/grassL.png');
+	background-repeat: repeat-y;*/
+	background-image: url('https://dl.dropboxusercontent.com/u/274954519/anmer/img/back.gif');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+
+@-webkit-keyframes btn-anim {
+  from {
+    -webkit-transform: rotate(0deg) scale(1,1);
+  }
+  to { 
+    -webkit-transform: rotate(360deg) scale(1.2, 1.2);
+  }
+}
+
+.btn-back{
+	content: url('https://dl.dropboxusercontent.com/s/iw5ycfmnpqc2392/64.png');
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+.btn-back:hover{
+    -webkit-animation-name:				btn-anim; 
+    -webkit-animation-duration:			0.5s; 
+    -webkit-animation-iteration-count:	1;
+    -webkit-animation-timing-function:	ease-in-out;
+    
+	-webkit-filter: drop-shadow(0px 0px 25px rgba(255,255,255,0.6));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.titulo { 
+	font-family: Cinzel; font-size: 400%;
+	text-shadow: 0px 16px 16px #1d2d1d;
+	font-weight: 500;
+	
+	/*width:1365px;
+	position: fixed;*/
+	margin-top:30px;
+	/*cursor: pointer;*/
+}
+
+.cuerpo {  
+	font-size: 22px;
+	/*text-shadow: 0px 0px 4px rgba(255, 0, 10, 0.71);*/
+	font-family: Cinzel;
+	text-align: left;
+	padding: 10px;
+}
+
+.foot {  
+	font-family:Tahoma;
+	font-size: smaller;
+	font-style: italic;
+	padding: 32px;
+}
+
+.button{
+	text-decoration: none;
+	color: #1D2D1D;
+	padding: 8px;
+	display:inline-block;
+}
+
+#relato{
+	font-variant:small-caps;
+	font-size: 26px;
+	/*text-shadow:none;*/
+	text-shadow: 0px 4px 4px rgba(29, 45, 29, 0.2);
+	text-align:left;
+	width: 90%;
+	margin: 0 auto;
+}
+#draw{
+	font-size:90px;
+	
+}
+
+.glow{
+	box-shadow: 0 0 20px #FFFFFF;
+	display: inline;
+	background-color: rgba(255, 255, 255, 0.44);
+}
