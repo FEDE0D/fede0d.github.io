@@ -42,13 +42,31 @@ footer{
 	}
 }
 
+@-moz-keyframes logo-anim{
+	from {
+		-moz-transform: rotate(0deg);
+	}to{
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes minilogo-anim{
+	from {
+		-moz-transform: rotate(360deg);
+	}to{
+		-moz-transform: rotate(0deg);
+	}
+}
+
 
 .LOGO-RIGHT{
 	-webkit-animation: logo-anim 5s infinite linear;
+	-moz-animation: logo-anim 5s infinite linear;
 }
 
 .LOGO-LEFT{
 	-webkit-animation: minilogo-anim 5s infinite linear;
+	-moz-animation: minilogo-anim 5s infinite linear;
 }
 
 .title{
