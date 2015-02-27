@@ -63,6 +63,6 @@ game.addAsset('res/gui/credits/mail.png');
 game.addAsset('res/gui/credits/web.png');
 
 //AUDIO
-game.addAudio('audio/FranticLevel.m4a', 'menu_music');
-game.addAudio('audio/8BitMetal.m4a', 'arcade_music');
-game.addAudio('audio/MainTheme.m4a', 'normal_music');
+game.addAudio('audio/FranticLevel.ogg', 'menu_music');
+game.addAudio('audio/8BitMetal.ogg', 'arcade_music');
+game.addAudio('audio/MainTheme.ogg', 'normal_music');
