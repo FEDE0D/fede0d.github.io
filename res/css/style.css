@@ -68,6 +68,12 @@ body{
 	padding: 8px;
 }
 
+.panel-gears .disqus-body{
+	
+	background-color: #FFFFFF;
+	
+}
+
 .panel-gears img{
 	padding: 4px;
 }
