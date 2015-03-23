@@ -86,7 +86,7 @@ body{
 	padding: 0px; margin: 8px;
 }
 
-.panel-gears ul{
+.no-list{
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
