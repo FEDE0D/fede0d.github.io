@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Minicube"
+date:   2015-09-18 13:00:03
+categories:
+ - game
+tags:
+ - game
+ - libgdx
+images:
+ - minicube/2.png
+ - minicube/1.png
+ - minicube/0.png
+download-title: Play now for Free!
+downloads:
+ - info: Download now for Windows
+   url: /assets/games/minicube/MiniCube.exe
+   icon: windows.png
+ - info: Download now (Windows, Linux & Mac)
+   url: /assets/games/minicube/MiniCube.tar.gz
+   icon: download.png
+
+---
+
+The action takes place inside a cubic weird facility.
+Explore the rooms as they move though the cube. Fight enemies and traps and escape! This game was made for the [1GAM Challenge]
+
+{% include post_images.html %}
+
+<!--more-->
+
+[1GAM Challenge]:http://onegameamonth.com/

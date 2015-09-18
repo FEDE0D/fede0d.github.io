@@ -1,0 +1,150 @@
+@media screen{
+	@font-face {
+		font-family: "TitilliumText";
+		src: url("/assets/site/fonts/TitilliumText.woff") format('woff');
+	}
+	@font-face {
+		font-family: "LemonMilk";
+		src: url("/assets/site/fonts/LemonMilk.otf");
+	}
+	@font-face {
+		font-family: "Alpaca";
+		src: url("/assets/site/fonts/alpaca/Alpaca Scarlett Demo.ttf");
+	}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Numans);
+/*@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic);*/
+
+html{
+	overflow-x: hidden;
+}
+
+body{
+	/*color: #FFFFFF;*/
+	background-color: #000111;
+	background-image: url("/assets/site/img/background-pattern.png");
+	margin: 0;
+	font-family: 'LemonMilk';
+	color: #352910;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header{
+	background-color: #FEDE0D;
+	color: black;
+	padding: 4px;
+}
+
+.title{
+	font-size: 42px;
+	padding: 8px 32px 8px 32px;
+	text-shadow: 4px 4px 12px #000000;
+	vertical-align: middle;
+	font-variant: normal;
+	color: white;
+	text-decoration: none;
+}
+
+.no-decoration{
+	text-decoration: none !important;
+}
+
+#gear-1{ width: 48px; }
+#gear-2{ width: 64px; }
+#gear-3{ width: 32px; }
+
+.linkbar{
+	background-color: #CC1A1A;
+	padding: 2px;
+	font-size: 14px;
+	min-height: 24px;
+}
+
+.linkbar a{
+	border: 1px dashed white;
+	padding: 4px;
+	color: white;
+	display: inline;
+	margin: 2px;
+}
+
+.linkbar a span{
+	display: inline-block;
+}
+
+.panel-gears{
+	
+	background-color: #FFD556;
+	border: 4px dashed black;
+	font-size: 110%;
+	font-family: 'Numans', sans-serif;
+	
+}
+
+.panel-gears .panel-heading{
+	font-weight: bold; 
+	font-size: 170%;
+	font-family: 'LemonMilk', sans-serif;
+	text-transform: uppercase;
+	color: #CC1A1A;
+	padding-left: 16px;
+}
+
+.panel-gears .panel-body{
+	font-size: 120%;
+	padding-left: 32px;
+}
+
+.panel-gears .panel-footer{
+	background-color: rgba(255, 0, 100, 0.1);
+	border:none;
+}
+
+.panel-gears .well{
+	background-color: rgba(255, 0, 100, 0.1);
+	border: none;
+	padding: 8px;
+}
+
+.panel-gears img{
+	padding: 4px;
+}
+
+.panel-gears hr{
+	border-color: #EC971F;
+	padding: 0px; margin: 8px;
+}
+
+.no-list{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.panel-gears a{ color: #CC1A1A }
+
+.panel-gears .glyphicon{
+	color: #CC1A1A;
+	font-size: 32px;
+	padding: 8px;
+	vertical-align: sub;
+}
+
+.tags, .tags > a{
+	font-size: 12px;
+	color: #846C47;
+}
+
+@media (max-width: 768px) {
+	html{
+		overflow: auto;
+	}
+	#gear-1, #gear-2, #gear-3 {
+		display: none;
+	}
+}

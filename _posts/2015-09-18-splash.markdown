@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Splash!"
+date:   2015-09-18 13:00:10
+categories:
+ - game
+tags:
+ - game
+ - godot
+ - android
+images:
+ - splash/game.png
+ - splash/title.png
+ - splash/3.png
+download-title: Play now for Free!
+downloads:
+ - info: Available on the Google Playstore
+   url: https://play.google.com/store/apps/details?id=org.godotengine.splash
+   icon: google_play.png
+ - info: Available on Gamejolt
+   url: http://gamejolt.com/games/splash/88783
+   icon: gamejolt.png
+
+---
+
+This swimmer has some troubles in the pool. Can you help him get to the other side?
+Oh no! Some cute little fishes have invaded the pool. Be careful and avoid them for as long as you can.
+Tap left and right to swim as fast as you can in this race against the clock.
+
+<!--more-->
+
+{% include post_videos.html %}
+{% include post_images.html %}

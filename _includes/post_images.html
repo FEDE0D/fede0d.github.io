@@ -1,0 +1,15 @@
+{% if page.images %}
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				{% for img in page.images %}
+				<div class="col-sm-4">
+					<img class="img-responsive" src="{{site.baseurl}}/assets/posts/{{img}}">
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endif %}

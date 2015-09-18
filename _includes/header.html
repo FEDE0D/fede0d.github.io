@@ -1,0 +1,45 @@
+<header>
+  <div class="header">
+    <a class="no-decoration" href="/{{site.baseurl}}" style="display:inline-block; width: 100%;">
+      <span class="title pull-left">{{ site.title | upcase }}</span>
+      <div class="pull-right">
+        <img id="gear-1" src="{{site.baseurl}}/assets/site/img/logo.png" />
+        <img id="gear-2" src="{{site.baseurl}}/assets/site/img/logo.png" />
+        <img id="gear-3" src="{{site.baseurl}}/assets/site/img/logo.png" />
+      </div>
+    </a>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      function rotate(id, angle, ms){
+        $(id).animateRotate(angle, ms, 'linear', function(){rotate(id, angle, ms);});
+      }
+
+      rotate("#gear-1", 360, 5000);
+      rotate("#gear-2", -360, 4000);
+      rotate("#gear-3", 360, 3000);
+
+
+    });
+    </script>
+  </div>
+</header>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="linkbar">
+      <a href="{{site.baseurl}}/about/" class="push-right">About me</a>
+      <a href="http://onegameamonth.com/FEDE0D" target="_blank">
+        <span><img src="{{site.baseurl}}/assets/site/img/1GAM_icon.png" width="32px"/> 1GAM</span>
+      </a>
+      <a href="http://twitter.com/fede0d" target="_blank">
+        <span><img src="{{site.baseurl}}/assets/site/img/twitter_icon.png" width="32px"/> @fede0d</span>
+      </a>
+      <a href="https://www.youtube.com/channel/UCf1t2cnZEkUqDkDjvY6-NNw">
+        <span><img src="{{site.baseurl}}/assets/site/img/youtube.ico" width="32px"/> /pixelatedgears</span>
+      </a>
+      <!--<input id="r_da" type="password" class="input-sm"/>
+      <script> $("#r_da").keydown(function(e){ if (e.keyCode == 13) document.location = CryptoJS.MD5($("#r_da").val())+"/index.html"; }); </script>-->
+    </div>
+  </div>
+</div>
