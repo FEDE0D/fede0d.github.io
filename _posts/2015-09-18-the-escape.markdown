@@ -12,7 +12,7 @@ images:
 download-title: Play now for Free!
 downloads:
  - info: Download now! (Windows, Linux & Mac)
-   url: /assets/games/theescape/TheEscape.jar
+   url: /assets/posts/theescape/TheEscape.jar
    icon: download.png
 
 ---

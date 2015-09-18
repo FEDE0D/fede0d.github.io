@@ -12,10 +12,10 @@ images:
 download-title: Play now for Free!
 downloads:
  - info: Download now for Windows
-   url: /assets/games/audiomining/AudioMining_win.zip
+   url: /assets/posts/audiomining/AudioMining_win.zip
    icon: windows.png
  - info: Download now! (Windows, Linux & Mac)
-   url: /assets/games/audiomining/Audio_Mining.love
+   url: /assets/posts/audiomining/Audio_Mining.love
    icon: love2d.png
 
 ---

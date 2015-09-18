@@ -14,10 +14,10 @@ images:
 download-title: Play now for Free!
 downloads:
  - info: Download now for Windows
-   url: /assets/games/minicube/MiniCube.exe
+   url: /assets/posts/minicube/MiniCube.exe
    icon: windows.png
  - info: Download now (Windows, Linux & Mac)
-   url: /assets/games/minicube/MiniCube.tar.gz
+   url: /assets/posts/minicube/MiniCube.tar.gz
    icon: download.png
 
 ---

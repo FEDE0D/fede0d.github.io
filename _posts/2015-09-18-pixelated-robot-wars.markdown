@@ -14,10 +14,10 @@ images:
 download-title: Play now for Free!
 downloads:
  - info: Download now (Windows, Linux & Mac)
-   url: /assets/games/PRW/PixelatedRobotWars.jar
+   url: /assets/posts/PRW/PixelatedRobotWars.jar
    icon: download.png
  - info: Download now for Android
-   url: /assets/games/PRW/PixelRobotWars.apk
+   url: /assets/posts/PRW/PixelRobotWars.apk
    icon: android.png
 
 ---

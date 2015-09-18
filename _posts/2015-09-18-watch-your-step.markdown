@@ -16,7 +16,7 @@ downloads:
    url: http://www.newgrounds.com/portal/view/643640
    icon: newgrounds.png
  - info: Play now on your browser! (Works best on Google Chrome &amp; Firefox)
-   url: /assets/games/WYS/wys.html
+   url: /assets/posts/WYS/
    icon: html5.png
 ---
 

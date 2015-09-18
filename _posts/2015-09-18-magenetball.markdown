@@ -14,7 +14,7 @@ images:
 download-title: Play now for Free!
 downloads:
  - info: Download for Windows, Linux & Mac
-   url: /assets/games/magnetball/Magnetball.zip
+   url: /assets/posts/magnetball/Magnetball.zip
    icon: download.png
 
 ---
