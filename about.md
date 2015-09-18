@@ -4,6 +4,7 @@ title: About me
 permalink: /about/
 tags:
  - blog
+comments: false
 ---
 <div class="col-sm-9">
 	<p>Hello I'm Federico Pacheco and I'm a game designer from Buenos Aires, Argentina.</p>

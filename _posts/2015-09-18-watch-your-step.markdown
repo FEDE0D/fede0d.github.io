@@ -18,6 +18,7 @@ downloads:
  - info: Play now on your browser! (Works best on Google Chrome &amp; Firefox)
    url: /assets/posts/WYS/
    icon: html5.png
+comments: true
 ---
 
 Jump from platform to platform while collecting as many points as you can.

@@ -17,6 +17,7 @@ downloads:
  - info: Segunda Parte
    url: /assets/posts/tutorial-movimiento/tutorial2.pdf
    icon: pdf.png
+comments: true
 ---
 
 En este tutorial explico como crear un personaje y un nivel con plataformas simple en Godot Engine. Al final de tutorial hay un link de descarga con el proyecto completo.

@@ -9,7 +9,7 @@ tags:
  - godot
 videos:
  - https://www.youtube.com/embed/BDUujDM-v0I
-
+comments: true
 ---
 Captured demo gameplay for my upcoming platformer game "Mahur's Flight" made using the Godot Engine.<br>
 The game is in alpha stage at the moment, so expect to see a lot of placeholders for music, sound effects and graphics.<br>

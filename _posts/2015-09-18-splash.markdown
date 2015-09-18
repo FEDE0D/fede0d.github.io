@@ -20,7 +20,7 @@ downloads:
  - info: Available on Gamejolt
    url: http://gamejolt.com/games/splash/88783
    icon: gamejolt.png
-
+comments: true
 ---
 
 This swimmer has some troubles in the pool. Can you help him get to the other side?

@@ -19,7 +19,7 @@ downloads:
  - info: Download now for Android
    url: /assets/posts/PRW/PixelRobotWars.apk
    icon: android.png
-
+comments: true
 ---
 
 The action takes place in Buenos Aires in the year 2106. 

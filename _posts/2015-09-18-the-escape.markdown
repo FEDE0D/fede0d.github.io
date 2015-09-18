@@ -14,7 +14,7 @@ downloads:
  - info: Download now! (Windows, Linux & Mac)
    url: /assets/posts/theescape/TheEscape.jar
    icon: download.png
-
+comments: true
 ---
 
 You are a dwarf and you are alone. You emerge from underground to a destroyed world. Mine to survive. 

@@ -19,7 +19,6 @@ layout: default
 				{{content}}
 			</div>
 			
-			<hr />
 			{% if page.downloads %}
 			<div class="panel-body">
 				<ul class="no-list">
@@ -36,6 +35,34 @@ layout: default
 					</li>
 					{% endfor %}
 				</ul>
+			</div>
+			{% endif %}
+			
+			{% if page.comments == false %}
+			<!--no comments allowed-->
+			{% else %}
+			<hr/>
+			<div class="panel-body">
+				<div class="col-sd-12">
+					<div class="panel panel-default" style="margin: 16px 4px">
+						<div class="panel-body">
+							<div id="disqus_thread"></div>
+							<script type="text/javascript">
+							    /* * * CONFIGURATION VARIABLES * * */
+							    var disqus_shortname = 'pixelatedgears';
+							    var disqus_identifier = "{{ page.url }}";
+							    
+							    /* * * DON'T EDIT BELOW THIS LINE * * */
+							    (function() {
+							        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+							        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+							    })();
+							</script>
+							<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+						</div>
+					</div>
+				</div>
 			</div>
 			{% endif %}
 			<div class="panel-footer"> </div>

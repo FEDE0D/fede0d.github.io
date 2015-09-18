@@ -25,7 +25,7 @@ downloads:
    url: https://bitbucket.org/fede0d/the-game-of-life/src/4dd0a0648772ccf4c60538872b2988374d2cd6ed/builds/win/tgol_32.exe?at=master
  - info: Android
    url: https://bitbucket.org/fede0d/the-game-of-life/src/4dd0a0648772ccf4c60538872b2988374d2cd6ed/builds/android/tgol.apk?at=master
-
+comments: true
 ---
 
 This is a test project I made to learn and familiarize with the development in <strong>[Godot Engine]</strong>.

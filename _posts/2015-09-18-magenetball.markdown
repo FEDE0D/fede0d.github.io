@@ -16,7 +16,7 @@ downloads:
  - info: Download for Windows, Linux & Mac
    url: /assets/posts/magnetball/Magnetball.zip
    icon: download.png
-
+comments: true
 ---
 
 Use the power of magnetism to move around and elude obstacles. Touch the green squares to win the level. Touch the red ones and you're dead.

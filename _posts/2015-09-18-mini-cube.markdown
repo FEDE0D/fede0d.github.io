@@ -19,7 +19,7 @@ downloads:
  - info: Download now (Windows, Linux & Mac)
    url: /assets/posts/minicube/MiniCube.tar.gz
    icon: download.png
-
+comments: true
 ---
 
 The action takes place inside a cubic weird facility.

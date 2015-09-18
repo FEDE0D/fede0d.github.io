@@ -17,7 +17,7 @@ downloads:
  - info: Download now! (Windows, Linux & Mac)
    url: /assets/posts/audiomining/Audio_Mining.love
    icon: love2d.png
-
+comments: true
 ---
 
 A dark, gloomy atmosphere inside a factory. A weird game I made for the SOUND month on [1GAM]. 

@@ -14,7 +14,7 @@ downloads:
  - info: Fork the project on Github!
    url: https://github.com/FEDE0D/godot-pathfinding2d-demo
    icon: github.png
-
+comments: true
 ---
 
 A demo project demonstrating pathfinding using a tilemap on the Godot Engine
