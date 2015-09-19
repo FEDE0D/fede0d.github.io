@@ -24,6 +24,7 @@ body{
 	/*color: #FFFFFF;*/
 	background-color: #000111;
 	background-image: url("/assets/site/img/background-pattern.png");
+	background-attachment: fixed;
 	margin: 0;
 	font-family: 'LemonMilk';
 	color: #352910;

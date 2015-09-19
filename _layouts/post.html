@@ -8,6 +8,7 @@ layout: default
 		<div class="panel panel-gears" style="margin: 16px 4px">
 			<div class="panel-heading">{{page.title}}
 				<div class="tags">
+					{{page.date | date: "%D"}}
 					(
 						{% for tag in page.tags %}
 							<a href="#">{{tag}}</a>
@@ -41,7 +42,7 @@ layout: default
 			{% if page.comments == false %}
 			<!--no comments allowed-->
 			{% else %}
-			<hr/>
+			<hr style="margin-top: 64px;"/>
 			<div class="panel-body">
 				<div class="col-sd-12">
 					<div class="panel panel-default" style="margin: 16px 4px">
