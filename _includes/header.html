@@ -1,27 +1,32 @@
-<header>
-  <div class="header">
-    <a class="no-decoration" href="/{{site.baseurl}}" style="display:inline-block; width: 100%;">
-      <span class="title pull-left">{{ site.title | upcase }}</span>
-      <div class="pull-right" >
-        <img id="gear-1" src="{{site.baseurl}}/assets/site/img/logo.png" />
-        <img id="gear-2" src="{{site.baseurl}}/assets/site/img/logo.png" />
-        <img id="gear-3" src="{{site.baseurl}}/assets/site/img/logo.png" />
-      </div>
-    </a>
-    <script type="text/javascript">
-    $(document).ready(function(){
+<header class="header no-selection">
+  <div class="row">
+    <div class="col-xs-6">
+      <a class="title no-decoration" href="/{{site.baseurl}}" style="display:inline-block; width: 100%;">
+        {{ site.title | upcase }}
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+        <div class="title text-right" style="font-size: 24px; line-height: 64px;">Game Dev</div>
+    </div>
+    <div class="col-md-2 col-sm-12 col-md-hide text-center">
+      <img id="gear-1" src="{{site.baseurl}}/assets/site/img/logo.png" />
+      <img id="gear-2" src="{{site.baseurl}}/assets/site/img/logo.png" />
+      <img id="gear-3" src="{{site.baseurl}}/assets/site/img/logo.png" />
+      <script type="text/javascript">
+        $(document).ready(function(){
 
-      function rotate(id, angle, ms){
-        $(id).animateRotate(angle, ms, 'linear', function(){rotate(id, angle, ms);});
-      }
+          function rotate(id, angle, ms){
+            $(id).animateRotate(angle, ms, 'linear', function(){rotate(id, angle, ms);});
+          }
 
-      rotate("#gear-1", 360, 5000);
-      rotate("#gear-2", -360, 4000);
-      rotate("#gear-3", 360, 3000);
+          rotate("#gear-1", 360, 5000);
+          rotate("#gear-2", -360, 4000);
+          rotate("#gear-3", 360, 3000);
 
 
-    });
-    </script>
+        });
+      </script>
+    </div>
   </div>
 </header>
 
