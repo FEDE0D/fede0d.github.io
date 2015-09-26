@@ -1,0 +1,205 @@
+---
+layout: test-layout
+---
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width initial-scale=1" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	    <meta name="description" content="{{ site.description }}">
+	
+	    <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
+	
+	    <script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/site/lib/bootstrap-3.2.0-dist/css/bootstrap.min.css" />
+		<script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+		
+		<style type="text/css">
+			@font-face {
+				font-family: "LemonMilk";
+				src: url("/assets/site/fonts/LemonMilk.otf");
+			}
+			
+			/*@import url(https://fonts.googleapis.com/css?family=Numans);*/
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,300);
+			
+			body{
+				/*margin: 0px;*/
+				padding-top: 80px;
+				background-color: #222222;
+				background-image: url({{site.baseurl}}/assets/site/img/background-pattern.png);
+				background-attachment: fixed;
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			.navbar-brand, .navbar-nav li a {
+			    line-height: 64px;
+			    height: 64px;
+			    padding-top: 0;
+			}
+			
+			.navbar-gears {
+				background-color: #FEDE0D;
+				background-image: url("/assets/site/img/background-pattern-header.png");
+			}
+			
+			.navbar-gears .title {
+				font-family: 'LemonMilk';
+				font-size: 28px;
+			}
+			
+			.navbar-gears a{
+				color: white;
+				text-shadow: #295454 1px 2px 2px;
+			}
+			
+			.nav > li {
+				font-size: 18px;
+			}
+			
+			.nav>li>a:hover, .nav>li>a:focus{
+				background-color: #FFF8C4;
+			}
+			
+			.panel-post{
+				background-color: #FDFFE2;
+			}
+			
+			.panel-post .panel-heading{
+				background-color: #FFE644;
+				font-size: 120%;
+				text-transform: uppercase;
+			}
+			
+			.panel-post .panel-heading img{
+				width: 32px;
+				padding-right: 8px;
+			}
+			
+			.panel-post .panel-footer{
+				background-color: #FFF799;
+			}
+			
+			.panel-post a {
+				color: #AC2925;
+			}
+			
+			.panel-footer .tag {
+				color: #805D5D;
+			}
+			
+			.img-social {
+				width: 42px;
+			}
+			
+			.footer {
+				margin-top: 32px;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			
+			.footer li {
+				padding-bottom: 2px;
+			}
+			
+			.footer .panel {
+				margin-bottom: 0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-gears navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-list"></span>
+					</button>
+					<a href="{{site.baseurl}}/" class="navbar-brand">
+						<span class="title"><img class="" src="{{site.baseurl}}/assets/site/img/logo.png" style="height: 48px;"> Pixelated Gears</span>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="{{site.baseurl}}/">Blog</a></li>
+						<li><a href="{{site.baseurl}}/about">About</a></li>
+						<li><a href="{{site.baseurl}}/games">Games</a></li>
+						<li><a href="{{site.baseurl}}/contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			
+			<div class="row">
+				<div class="col-md-3">
+					{% include latest_posts_panel.html %}
+					{% include links.html %}
+				</div>
+
+				<div class="col-md-9">
+					{{ content }}
+				</div>
+			</div>
+			
+			<div class="row">
+				<footer class="footer container-fluid">
+					<div class="panel">
+						<div class="panel-body">
+							<div class="col-xs-4">
+								<div class="text-left">
+									<ul class="list-unstyled">
+										Site Map
+										<hr style="margin: 4px;"/>
+										<li><a href="{{site.baseurl}}/">Blog</a></li>
+										<li><a href="{{site.baseurl}}/about">About</a></li>
+										<li><a href="{{site.baseurl}}/games">Games</a></li>
+										<li><a href="{{site.baseurl}}/contact">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="text-center">
+									<ul class="list-unstyled">
+										Social Media
+										<hr style="margin: 4px;"/>
+										<li>
+											<a href="http://twitter.com/fede0d"><img class="img-social" src="{{site.baseurl}}/assets/site/img/social/twitter.png" /></a>
+											<a href="https://www.youtube.com/channel/UCf1t2cnZEkUqDkDjvY6-NNw"><img class="img-social" src="{{site.baseurl}}/assets/site/img/social/youtube.png" /></a>
+											<a href="#"><img class="img-social" src="{{site.baseurl}}/assets/site/img/social/facebook.png" /></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="text-right">
+									<ul class="list-unstyled">
+										Latest Posts
+										<hr style="margin: 4px;"/>
+										{% for post in site.posts limit: 3 %}
+											<li><a href="{{post.url}}">{{post.title}}</a></li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="panel-body">
+							<div class="pull-right">
+								<span class="text-muted">&copy; Pixelated Gears - 2015</span>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			
+		</div>
+
+		
+	</body>
+</html>

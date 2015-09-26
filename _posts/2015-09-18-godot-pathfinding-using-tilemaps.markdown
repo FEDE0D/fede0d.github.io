@@ -3,7 +3,7 @@ layout: post
 title:  "Godot Engine: 2D pathfinding using Tilemaps"
 date:   2015-09-18 13:00:08
 categories:
- - code
+ - blog
 tags:
  - code
  - godot

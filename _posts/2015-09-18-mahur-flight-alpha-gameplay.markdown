@@ -3,7 +3,7 @@ layout: post
 title:  "Mahur's Flight - Alpha gameplay"
 date:   2015-09-18 13:00:09
 categories:
- - game
+ - blog
 tags:
  - game
  - godot

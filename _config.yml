@@ -13,3 +13,5 @@ github_username:  fede0d
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
+
+array: []

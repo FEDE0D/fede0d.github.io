@@ -3,7 +3,7 @@ layout: post
 title:  "(Spanish) Godot Engine tutorial: Movimiento de un personaje"
 date:   2015-09-18 13:00:07
 categories:
- - code
+ - blog
 tags:
  - tutorial
  - godot
