@@ -26,6 +26,11 @@ layout: test-layout
 			/*@import url(https://fonts.googleapis.com/css?family=Numans);*/
 			@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,300);
 			
+			html, body {
+				min-width: 320px;
+				min-height: 240px;
+			}
+
 			body{
 				/*margin: 0px;*/
 				padding-top: 80px;
@@ -48,7 +53,14 @@ layout: test-layout
 			
 			.navbar-gears .title {
 				font-family: 'LemonMilk';
-				font-size: 28px;
+				font-size: 26px;
+			}
+
+			@media (max-width: 768px) {
+				.navbar-gears .title {
+					font-family: 'LemonMilk';
+					font-size: 16px;
+				}
 			}
 			
 			.navbar-gears a{
@@ -87,6 +99,10 @@ layout: test-layout
 				color: #AC2925;
 			}
 			
+			.panel-post .well {
+				padding: 4px !important;
+			}
+
 			.panel-footer .tag {
 				color: #805D5D;
 			}
@@ -121,7 +137,7 @@ layout: test-layout
 						<span class="glyphicon glyphicon-list"></span>
 					</button>
 					<a href="{{site.baseurl}}/" class="navbar-brand">
-						<span class="title"><img class="" src="{{site.baseurl}}/assets/site/img/logo.png" style="height: 48px;"> Pixelated Gears</span>
+						<span class="title"><img class="" src="{{site.baseurl}}/assets/site/img/logo.png" style="height: 32px;"> Pixelated Gears</span>
 					</a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -138,7 +154,7 @@ layout: test-layout
 		<div class="container-fluid">
 			
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 hidden-xs">
 					{% include latest_posts_panel.html %}
 					{% include links.html %}
 				</div>

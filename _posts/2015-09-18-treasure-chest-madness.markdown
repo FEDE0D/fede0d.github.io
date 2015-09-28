@@ -9,9 +9,10 @@ tags:
  - godot
  - android
 images:
- - treasure/1.png
  - treasure/2.png
+ - treasure/1.png
  - treasure/3.png
+ - treasure/4.png
 download-title: Play now for Free!
 downloads:
  - info: Available on the Google Playstore
