@@ -152,6 +152,10 @@ body{
   user-select: none;          /* Likely future */      
 }
 
+mark{
+	background-color: #EFCB9D !important;
+}
+
 @media (max-width: 768px) {
 	html{
 		overflow: auto;
