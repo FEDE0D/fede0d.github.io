@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tutorial: Singleton Music Node in Godot Engine"
-date:   2015-10-19 23:58:00
+date:   2015-10-18 23:58:00
 categories:
  - blog
 tags:
