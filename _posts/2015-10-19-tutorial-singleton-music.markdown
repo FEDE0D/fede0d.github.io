@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tutorial: Singleton Music Node in Godot Engine"
-date:   2015-10-18 19:57:00
+date:   2015-10-19 23:58:00
 categories:
  - blog
 tags:
@@ -38,15 +38,15 @@ comments: true
 		</li>
 		<li>Now go to the Autoload panel. Click on the menu <strong>Scene > Project Settings</strong> and go to the <strong>Autoload</strong> tab</li>
 		<li>To create a new autoloaded scene enter the name the node and then click on the <kbd>..</kbd> button to choose the scene you want to load.
-			<p>
-			<div class="row">
-				<div class="col-xs-2"></div>
-				<div class="col-xs-8"><img class="img-thumbnail img-responsive" src="/assets/posts/tutorial-singleton-music/autoload.png"></div>
-				<div class="col-xs-2"></div>
-			</div>
-			</p>
 		</li>
 		<li>Finally click on the <kbd>Add</kbd> button to add the autoload.</li>
+		<p>
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-8"><img class="img-thumbnail img-responsive" src="/assets/posts/tutorial-singleton-music/autoload.png"></div>
+			<div class="col-xs-2"></div>
+		</div>
+		</p>
 	</ul>
 </p>
 
@@ -61,7 +61,7 @@ comments: true
 </div>
 <br>
 <p>In this example we have first the "scene A" and then we switched to "scene B". Notice how the MusicPlayer scene remains loaded even when we switch scenes.<br>
-<span class="text-info bg-info">If you want to inspect the scene tree of you game go to the scrips view and then <strong>Debug > Show debugger</strong> (altough it should be opened automatically when the game is running). Then go to the <strong>Info</strong> tab and click on the <strong>refresh</strong> icon.</span>
+<span class="text-info bg-info">If you want to inspect the scene tree of you game go to the scrips view and then <strong>Debug > Show debugger</strong>. Then go to the <strong>Info</strong> tab and click on the <strong>refresh</strong> icon.</span>
 </p>
 
 <hr>
