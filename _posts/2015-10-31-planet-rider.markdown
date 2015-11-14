@@ -20,6 +20,9 @@ downloads:
  - info: "Downlaod now on Google PlayStore"
    url: https://play.google.com/store/apps/details?id=io.githubfede0d.planetrider
    icon: google_play.png
+ - info: "Download for Windows"
+   url: /assets/posts/planet-rider/planet-rider.exe
+   icon: windows.png
  - info: "Download the project from GitHub"
    url: https://github.com/FEDE0D/Planet-Rider
    icon: github.png
