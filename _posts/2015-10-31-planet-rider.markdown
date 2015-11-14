@@ -17,12 +17,21 @@ images:
  - "planet-rider/5.png"
  - "planet-rider/6.png"
 downloads:
- - info: "Downlaod now on Google PlayStore"
+ - info: "Download now on Google PlayStore"
    url: https://play.google.com/store/apps/details?id=io.githubfede0d.planetrider
    icon: google_play.png
- - info: "Download for Windows"
+ - info: "Download for Windows (x86)"
    url: /assets/posts/planet-rider/planet-rider.exe
    icon: windows.png
+ - info: "Download for Windows (64 bits)"
+   url: /assets/posts/planet-rider/planet-rider-64.exe
+   icon: windows.png
+ - info: "Download for GNU/Linux (x86)"
+   url: /assets/posts/planet-rider/planet-rider.x86
+   icon: linux.png
+ - info: "Download for GNU/Linux (64 bits)"
+   url: /assets/posts/planet-rider/planet-rider.64
+   icon: linux.png
  - info: "Download the project from GitHub"
    url: https://github.com/FEDE0D/Planet-Rider
    icon: github.png
@@ -55,7 +64,13 @@ downloads:
 	Press the <code>LEFT</code> and <code>RIGHT</code> arrows to move.<br>
 	Press the <code>UP</code> arrow to jump and avoid obstacles.<br>
 	Collect items like gasoline cans and power-ups to fuel the engines on this long journey.<br>
-	<br>
+</p>
+<p>
+	<strong class="text-muted">On desktop</strong><br>
+	Press the <code>LEFT</code> and <code>RIGHT</code> keys to move.<br>
+	Press the <code>SPACEBAR</code> to jump
+</p>
+<p>
 	This game was made for the <a href="http://onegameamonth.com/">#1GAM Challenge</a> on October 2015.<br>
 </p>
 
