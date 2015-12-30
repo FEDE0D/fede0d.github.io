@@ -11,6 +11,11 @@
 		font-family: "Alpaca";
 		src: url("/assets/site/fonts/alpaca/Alpaca Scarlett Demo.ttf");
 	}
+	@font-face {
+		font-family: "Grinched";
+		src: url("/assets/site/fonts/Grinched 2.0.ttf");
+		font-weight: bold;
+	}
 }
 
 @import url(https://fonts.googleapis.com/css?family=Numans);
