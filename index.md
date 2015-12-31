@@ -54,7 +54,7 @@ layout: main
 				{% endif %}
 				<div class="col-md-9">
 					{{post.excerpt}}
-					<a href="{{post.url}}">read more...</a>
+					<a href="{{post.url}}">Read more...</a>
 				</div>
 			</div>
 			<div class="panel-footer text-right">
