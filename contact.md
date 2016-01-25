@@ -8,15 +8,30 @@ permalink: /contact/
 		<div class="col-sm-9">
 			<div class="panel panel-post">
 				<div class="panel-body">
-					If you want to contact me you can reach me at <a href="mailto:federicogpacheco@gmail.com">federicogpacheco@gmail.com</a> and I will reply as soon as posible.
+					<p style="padding: 8px 0px;">
+						<strong><i>Contact me!</i></strong>
+					</p>
+
+					If you want to contact me you can reach me at <a href="javascript:showEmail()" id="aEmail">show email</a> and I will reply as soon as posible.
 					
 					<br />
 					<ul>
 						<li>I'm interested in working on a full-time game dev job</li>
-						<li>I'm interested on participating in game jams and other short dev events.</li>
+						<li>I'm interested on participating in game jams and other short gamedev events.</li>
 					</ul>
+
+					<p>
+						Read my CV <a href="/assets/CV/cv.html">here</a>.
+					</p>
 					
 				</div>
+				<script type="text/javascript">
+					function showEmail(){
+						var e = document.getElementById("aEmail");
+						e.setAttribute("href", "mailto:federicogpacheco"+"@"+"gmail.com");
+						e.innerHTML = "federicogpacheco"+"@"+"gmail.com";
+					}
+				</script>
 				<div class="panel-footer">
 				</div>
 			</div>
