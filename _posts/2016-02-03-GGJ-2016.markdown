@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "#GGJ2016: Tarani's Blessing"
+date:   2016-02-03 00:30:16
+categories:
+ - blog
+tags:
+ - GGJ
+ - game
+ - godot
+ - windows
+ - linux
+comments: true
+images:
+ - "GGJ2016/1.png"
+ - "GGJ2016/2.png"
+ - "GGJ2016/3.png"
+download-title: "Play now for Free!"
+downloads:
+ - info: "Download for Windows & Linux from the GGJ site"
+   url: "http://globalgamejam.org/2016/games/taranis-blessing"
+   icon: "ggj.png"
+ - info: "Download the project for Godot Engine from GitHub"
+   url: "https://github.com/FEDE0D/ritual"
+   icon: "github.png" 
+---
+
+{% include post_videos.html %}
+<!--more-->
+
+<div style="text-align: center">
+	<img src="/assets/posts/GGJ2016/ggj.png" style="max-width: 128px;">
+</div>
+<h1>Global Game Jam 2016</h1>
+<p>
+	This year I had the pleasure to participate on the GGJ 2016 on the city of La Plata.
+	This was my first time there and I didn't know what to expect, but everything went great thanks to my teammates.
+</p>
+<div class="row">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-8">
+		<div style="text-align: center; padding: 32px;">
+			<img src="/assets/posts/GGJ2016/team.png" class="img-responsive img-thumbnail">
+		</div>
+	</div>
+	<div class="col-md-2">
+	</div>
+</div>
+<p>
+	We made a game called <strong><a href="http://globalgamejam.org/2016/games/taranis-blessing">Tarani's Blessing</a></strong> using Godot Engine.
+	It is a multiplayer for up to 4 players using the keyboard and joystick to control the characters.
+</p>
+
+{% include post_images.html %}
