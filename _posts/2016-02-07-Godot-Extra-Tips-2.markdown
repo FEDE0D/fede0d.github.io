@@ -70,11 +70,11 @@ downloads:
 	In this tutorial we're going to do a very simple fadeIn/fadeOut transition. On top of that we're going to add a feathered heart, because why not?<br>
 	Here's the sprites we'll be using:
 	<div style="text-align: left;">
-		<img src="/assets/posts/tip2/heart.png" class="img-responsive img-thumbnail" style="max-width: 128px;"/>
+		<img src="/assets/posts/tip2/heart.png" class="img-responsive img-thumbnail img-img" style="max-width: 128px;"/>
 		<i>A feathered heart</i>
 		<br>
 		<br>
-		<img src="/assets/posts/tip2/white.png" class="img-responsive img-thumbnail" style="max-width: 128px; min-width: 64px;"/>
+		<img src="/assets/posts/tip2/white.png" class="img-responsive img-thumbnail img-img" style="max-width: 128px; min-width: 64px;"/>
 		<i>A white square</i>
 	</div>
 </p>
@@ -86,7 +86,7 @@ downloads:
 </p>
 <p>
 	2. Now we're going to create two scenes (sceneA.scn &amp; sceneB.scn). I've added some text to make them different and buttons to change from one to another.
-	<div class="row">
+	<div class="row img-gallery-make">
 		<div class="col-md-6">
 			<img src="/assets/posts/tip2/2A.png" class="img-responsive img-thumbnail"/>
 		</div>
@@ -161,7 +161,7 @@ func change_scene():
 	All the animation do is animate the <strong>modulate</strong> property, changing the alpha value to make the fade in &amp; out effect.<br>
 	Set the animation duration to 2 seconds. Add an <code>animation key</code> at 0, 1 and 2 second time with the alpha value at 0, 255 and 0 respectively.<br>
 	You will end up with something like this:
-	<div style="text-align: center;">
+	<div style="text-align: center;" class="img-gallery-make">
 		<img src="/assets/posts/tip2/8A.png" class="img-responsive img-thumbnail"/>
 	</div>
 </p>
@@ -169,7 +169,7 @@ func change_scene():
 <p>
 	9. Now the final part. We need to call the <code>change_scene()</code> function at the middle of the animation. We do this by adding a <strong>call function track</strong> to the animation. The <strong>function track</strong> works like the other tracks except instead of animating properties like color or position, it makes calls to a function of a certain node.<br><br>
 	Add a new <code>function track</code> pressing on the <strong>big plus icon</strong> at the bottom of the animation panel. Click on <i>Add Call Func Track</i>. It will open a new window asking for a node where to make the calls to. Select the <strong>root node</strong> (the <code>CanvasLayer</code> node) and press <i>OK</i>.<br><br>
-	<div style="text-align: center;">
+	<div style="text-align: center;" class="img-gallery-make">
 		<img src="/assets/posts/tip2/8B.png" class="img-responsive img-thumbnail"/>
 	</div>
 	<br>

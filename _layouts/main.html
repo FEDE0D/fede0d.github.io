@@ -15,128 +15,14 @@ layout: test-layout
 	    <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
 	
-	    <script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+		<!--Bootstrap-->
 		<link rel="stylesheet" href="{{site.baseurl}}/assets/site/lib/bootstrap-3.2.0-dist/css/bootstrap.min.css" />
-		<script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 		
-		<style type="text/css">
-			@font-face {
-				font-family: "LemonMilk";
-				src: url("/assets/site/fonts/LemonMilk.otf");
-			}
-			
-			@font-face {
-				font-family: "Grinched";
-				src: url("/assets/site/fonts/Grinched 2.0.ttf");
-			}
-
-			/*@import url(https://fonts.googleapis.com/css?family=Numans);*/
-			@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,300);
-			
-			html, body {
-				min-width: 320px;
-				min-height: 240px;
-			}
-
-			body{
-				/*margin: 0px;*/
-				padding-top: 80px;
-				background-color: #222222;
-				background-image: url({{site.baseurl}}/assets/site/img/background-pattern.png);
-				background-attachment: fixed;
-				font-family: 'Open Sans', sans-serif;
-			}
-			
-			.navbar-brand, .navbar-nav li a {
-			    line-height: 64px;
-			    height: 64px;
-			    padding-top: 0;
-			}
-			
-			.navbar-gears {
-				background-color: #FEDE0D;
-				background-image: url("/assets/site/img/background-pattern-header.png");
-			}
-			
-			.navbar-gears .title {
-				font-family: 'LemonMilk';
-				font-size: 26px;
-			}
-
-			@media (max-width: 768px) {
-				.navbar-gears .title {
-					font-family: 'LemonMilk';
-					font-size: 16px;
-				}
-			}
-			
-			.navbar-gears a{
-				color: white;
-				text-shadow: #295454 1px 2px 2px;
-			}
-			
-			.nav > li {
-				font-size: 18px;
-			}
-			
-			.nav>li>a:hover, .nav>li>a:focus{
-				background-color: #FFF8C4;
-			}
-			
-			.panel-post{
-				background-color: #FDFFE2;
-			}
-			
-			.panel-post .panel-heading{
-				background-color: #FFE644;
-				font-size: 120%;
-				text-transform: uppercase;
-			}
-			
-			.panel-post .panel-heading img{
-				width: 32px;
-				padding-right: 8px;
-			}
-			
-			.panel-post .panel-footer{
-				background-color: #FFF799;
-			}
-			
-			.panel-post a {
-				color: #AC2925;
-			}
-			
-			.panel-post .well {
-				padding: 4px !important;
-			}
-
-			.panel-footer .tag {
-				color: #805D5D;
-			}
-			
-			.img-social {
-				width: 42px;
-			}
-			
-			.footer {
-				margin-top: 32px;
-				padding-left: 0px;
-				padding-right: 0px;
-			}
-			
-			.footer li {
-				padding-bottom: 2px;
-			}
-			
-			.footer .panel {
-				margin-bottom: 0px;
-			}
-			
-			mark {
-				background-color: rgba(255, 173, 133, 0.61) !important;
-			}
-
-		</style>
+		<!--Magnific Popup Plugin-->
+		<link rel="stylesheet" href="/assets/site/lib/magnificpopup/magnific-popup.css"/>
+		
+		<!--Custom Style-->
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/site/css/style.css" />
 	</head>
 	<body>
 
@@ -227,6 +113,13 @@ layout: test-layout
 			
 		</div>
 
-		
+		<!--JQuery-->
+		<script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+		<!--Bootstrap-->
+		<script type="text/javascript" src="{{site.baseurl}}/assets/site/lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+		<!--Magnific Popup Plugin-->
+		<script type="text/javascript" src="/assets/site/lib/magnificpopup/jquery.magnific-popup.min.js"></script>
+		<!--Custom-->
+		<script type="text/javascript" src="/assets/site/js/scripts.js"></script>
 	</body>
 </html>

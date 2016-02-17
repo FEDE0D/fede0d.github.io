@@ -10,7 +10,11 @@
 				<div class="row">
 				{% endif %}
 				<div class="col-md-4">
-					<img class="img-responsive img-thumbnail" src="{{site.baseurl}}/assets/posts/{{img}}">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="{{site.baseurl}}/assets/posts/{{img}}">
+							<img class="img-responsive img-thumbnail" src="{{site.baseurl}}/assets/posts/{{img}}">
+						</a>
+					</div>
 				</div>
 				{% if row == 0%}
 				</div>
