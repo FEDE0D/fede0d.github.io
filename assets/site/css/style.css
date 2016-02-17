@@ -113,3 +113,8 @@ body{
 mark {
 	background-color: rgba(255, 173, 133, 0.61) !important;
 }
+
+.hid {
+	opacity: 0;
+}
+
