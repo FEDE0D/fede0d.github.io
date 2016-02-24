@@ -1,32 +1,29 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>CV - Federico Pacheco</title>
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<title>CV | Federico Pacheco</title>
+	<meta name="description" content="Curriculum Federico Pacheco">
+	<meta name="keywords" content="cv curriculum federico pacheco">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="/assets/site/lib/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/site/lib/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
+	
 	<!-- fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,400italic,300italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800' rel='stylesheet' type='text/css'>
+	
+	<!--Font Awesome Icons-->
+	<link rel="stylesheet" href="/assets/site/lib/font-awesome-4.5.0/css/font-awesome.min.css">
 
 	<style type="text/css">
 
 		body{
-			color: rgb(73, 83, 103);
 			font-family: 'Open Sans';
 			font-size: 14px;
-		}
-
-		@media (min-width: 768px) {
-			body{
-				font-size: 12px;
-			}
-		}
-		@media (max-width: 768px) {
-			body{
-				font-size: 8px;
-			}
+			color: rgb(73, 83, 103);
+			background-color: #F3F3F3;
 		}
 
 		.banner{
@@ -55,9 +52,12 @@
 			font-size: 115%;
 			color: rgb(170, 178, 195);
 			background-color: #181C1F;
+			background-image: url('/assets/CV/res/img/background.png');
+			
 			-webkit-border-radius: 0px 8px 8px 0px;
 			-moz-border-radius: 0px 8px 8px 0px;
 			border-radius: 0px 96px 32px 0px;
+			text-align: right;
 
 			word-wrap: break-word;
 		}
@@ -73,8 +73,9 @@
 		}
 
 		.block{
-			color: orange;
+			/*color: orange;*/
 			font-size: 150%;
+			padding: 8px;
 		}
 
 		.block .title{
@@ -101,8 +102,11 @@
 			text-align: right;
 			vertical-align: middle;
 			font-size: 120%;
-			color: orange;
 			width: 15%;
+		}
+		
+		.block .body .table-orange td:first-child{
+			color: orange;
 		}
 
 		.block .body .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
@@ -115,11 +119,56 @@
 		}
 
 		.img-star{
-			width: 2vw;
+			width: 1.5vw;
 		}
 
 		.td-star{
 			vertical-align: middle !important;
+		}
+		
+		.td-star .fa {
+			color: orange;
+		}
+		
+		.highlight {
+			font-family: 'Raleway';
+			color: #C55500;
+			font-weight: lighter;
+			font-size: 110%;
+		}
+		
+		.spacer {
+			height: 24px;
+		}
+		
+		.spacer-lg {
+			height: 48px;
+		}
+		
+		
+		@media (min-width: 768px) {
+			body{
+				font-size: 12px;
+			}
+		}
+		@media (max-width: 768px) {
+			
+			body{
+				font-size: 11px;
+			}
+			
+			#ul-data {
+				border-radius: 0;
+				text-align: center;
+			}
+			#col-left {
+				padding-right: 0;
+			}
+			#img-profile {
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+			}
 		}
 
 	</style>
@@ -132,226 +181,260 @@
 </head>
 <body>
 
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="banner">
-				<span>CV</span>
-				<span class="pull-right">Federico Pacheco</span>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="name">
-				Federico Pacheco
-				<div class="subtitle">Android &amp; Web Developer</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-3">
-			<ul id="ul-data" class="text-right">
-				<li><img id="img-profile" src="foto.png" class="img-responsive img-thumbnail img-circle"></li>
-				<li><strong>Nombre</strong></li>
-				<li>Federico Pacheco</li>
-				<br>
-				<li><strong>Fecha de nacimiento</strong></li>
-				<li>06/05/1991</li>
-				<br>
-				<li><strong>Email</strong></li>
-				<li><a href="#" onclick="showMail(this)">mostrar</a>
-					<script type="text/javascript">
-						var _0x17ca=["\x70\x61\x72\x65\x6E\x74\x45\x6C\x65\x6D\x65\x6E\x74","\x61","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x66\x65\x64\x65\x72\x69\x63\x6F\x67\x70\x61\x63\x68\x65\x63\x6F","\x40","\x67\x6D\x61\x69\x6C","\x2E","\x63\x6F\x6D","\x68\x72\x65\x66","\x6D\x61\x69\x6C\x74\x6F\x3A","\x72\x65\x6D\x6F\x76\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64"];function showMail(_0x4911x2){var _0x4911x3=_0x4911x2[_0x17ca[0]];var _0x4911x4=document[_0x17ca[2]](_0x17ca[1]);_0x4911x4[_0x17ca[3]]=_0x17ca[4]+_0x17ca[5]+_0x17ca[6]+_0x17ca[7]+_0x17ca[8];_0x4911x4[_0x17ca[9]]=_0x17ca[10]+_0x17ca[4]+_0x17ca[5]+_0x17ca[6]+_0x17ca[7]+_0x17ca[8];_0x4911x2[_0x17ca[11]]();_0x4911x3[_0x17ca[12]](_0x4911x4);}
-					</script>
-				</li>
-				<br>
-				<li><strong>Website</strong></li>
-				<li><a href="http://fede0d.github.io/">fede0d.github.io</a></li>
-			</ul>
-		</div>
-		<div class="col-xs-9">
-			<div class="row">
-				<div class="col-xs-12">
-
-					<div class="block">
-						<div class="title">Experiencia</div>
-						<div class="body">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td>2014 - 2015</td>
-										<td>
-											<ul>
-												<li><strong>Proyecto SIGBA</strong></li>
-												<li><i>Sistema Integral de Gestión de la Provincia de Buenos Aires</i></li>
-												<li>Herramienta web orientada a la integración y comunicación de diferentes departamentos del Gobierno de la Provincia con énfasis en la accesibilidad de la información. Mi aporte al proyecto como Administrador de Bases de Datos me puso al frente de una enorme cantidad de información con la responsabilidad de mantener la consistencia y eficiencia entre los diferentes módulos de la plataforma. Mis responsabilidades como Desarrollador Web incluyeron la implementación de varios diseños de vistas, y la implementación e integración de varios módulos dentro del sitio.</li>
-											</ul>
-										</td>
-									</tr>
-									<tr>
-										<td>2014 - </td>
-										<td>
-											<ul>
-												<li><strong>Freelance</strong></li>
-												<li><i>Desarrollo Web</i></li>
-												<li>Desarrollo de proyectos orientados a la web. Maquetación web. Diseño de base de datos. Implementación utilizando herramientas CMS, PHP, Twig, HTML, Bootstrap, CSS, JQuery. Diseños web responsive. Utilización de tecnología AJAX. Seguridad web y prevención XSS, CSRF, SQLInjection.</li>
-												<li><i>Desarrollo Android</i></li>
-												<li>Implementación de aplicaciones para dispositivos Android. Apps de entretenimiento, negocios y compras, herramientas personalizadas. Diseños responsive. Comunicación con servicios en la nube. Integración de herramientas analíticas y de monetización.</li>
-											</ul>
-										</td>
-									</tr>
-									<tr>
-										<td></td>
-										<td>
-											<ul>
-												<li><strong>Autodidacta entusiasta</strong></li>
-												<li><i>Como apasionado informático estoy interesado en estar siempre actualizado con las nuevas tecnologías, sobre todo en el desarrollo de alternativas de software libre.</i></li>
-												<li><u>Aprendizaje de herramientas especializadas.</u> </li>
-												<li>Modelado y animación: 3DStudioMax, Blender.</li>
-												<li>Edición de video: Adobe After Effects, Adobe Premiere Pro, Kdenlive</li>
-												<li>Edición de imagenes: Adobe Photoshop, GIMP, Krita, Inkscape.</li>
-												<li>Edición de audio: Audacity, LMMS, FLStudio. </li>
-												<br>
-												<li><u>Herramientas para creación de videojuegos</u></li>
-												<li>Motores: Unity 3D, Godot Engine.</li>
-												<li>Librerías/Frameworks: LibGDX, Pixi.js, LÖVE, CraftyJS.</li>
-												<li>Otras herramientas: Tiled, TexturePacker, .</li>
-												<br>
-												<li><u>Lenguajes de programación</u></li>
-												<li>Java, PHP, C++, Lua, Python, Javascript, BASH script.</li>
-											</ul>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-
-					<div class="block">
-						<div class="title">Educación</div>
-						<div class="body">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td>2016</td>
-										<td>
-											<ul>
-												<li><strong>Analista Programador Universitario</strong></li>
-												<li>Facultad de Informática UNLP</li>
-											</ul>
-										</td>
-									</tr>
-									<tr>
-										<td>2009 - </td>
-										<td>
-											<ul>
-												<li><strong>Licenciatura en Sistemas</strong></li>
-												<li>Facultad de Informática UNLP</li>
-											</ul>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-
-					<div class="block">
-						<div class="title">Habilidades</div>
-						<br>
-						<div class="body">
-							<div class="row">
-								<div class="col-xs-6">
-									<strong>Profesionales</strong>
-									<table class="table">
-										<tbody>
-											<tr>
-												<td>Java</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-												</td>
-											</tr>
-											<tr>
-												<td>Desarrollo Web</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star.png">
-												</td>
-											</tr>
-											<tr>
-												<td>Idioma Inglés</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star.png">
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<div class="col-xs-6">
-									<strong>Personales</strong>
-									<table class="table">
-										<tbody>
-											<tr>
-												<td>Compromiso</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-												</td>
-											</tr>
-											<tr>
-												<td>Comunicación</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star.png">
-												</td>
-											</tr>
-											<tr>
-												<td>Colaboración</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-												</td>
-											</tr>
-											<tr>
-												<td>Ganas de aprender</td>
-												<td class="td-star">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-													<img class="img-star" src="res/img/star_on.png">
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-
+	<div class="container-fluid" style="padding: 0 0;">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="banner">
+					<span>CV</span>
+					<span class="pull-right">Federico Pacheco</span>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="name">
+					Federico Pacheco
+					<div class="subtitle highlight">Android &amp; Web Developer</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="col-left" class="col-sm-3 col-xs-12">
+				<ul id="ul-data">
+					<li><img id="img-profile" src="foto.png" class="img-responsive img-thumbnail img-circle"></li>
+					<li><strong>Nombre</strong> <i class="fa fa-user fa-1x"></i></li>
+					<li>Federico Pacheco</li>
+					<br>
+					<li><strong>Fecha de nacimiento</strong> <i class="fa fa-birthday-cake fa-1x"></i></li>
+					<li>06/05/1991</li>
+					<br>
+					<li><strong>Email</strong> <i class="fa fa-envelope fa-1x"></i></li>
+					<li><a href="#" onclick="showMail(this)">mostrar</a>
+						<script type="text/javascript">
+							var _0x17ca=["\x70\x61\x72\x65\x6E\x74\x45\x6C\x65\x6D\x65\x6E\x74","\x61","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x66\x65\x64\x65\x72\x69\x63\x6F\x67\x70\x61\x63\x68\x65\x63\x6F","\x40","\x67\x6D\x61\x69\x6C","\x2E","\x63\x6F\x6D","\x68\x72\x65\x66","\x6D\x61\x69\x6C\x74\x6F\x3A","\x72\x65\x6D\x6F\x76\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64"];function showMail(_0x4911x2){var _0x4911x3=_0x4911x2[_0x17ca[0]];var _0x4911x4=document[_0x17ca[2]](_0x17ca[1]);_0x4911x4[_0x17ca[3]]=_0x17ca[4]+_0x17ca[5]+_0x17ca[6]+_0x17ca[7]+_0x17ca[8];_0x4911x4[_0x17ca[9]]=_0x17ca[10]+_0x17ca[4]+_0x17ca[5]+_0x17ca[6]+_0x17ca[7]+_0x17ca[8];_0x4911x2[_0x17ca[11]]();_0x4911x3[_0x17ca[12]](_0x4911x4);}
+						</script>
+					</li>
+					<br>
+					<li><strong>Website</strong> <i class="fa fa-globe fa-1x"></i></li>
+					<li><a href="http://fede0d.github.io/">fede0d.github.io</a></li>
+				</ul>
+			</div><!--col-left-->
+			<div id="col-right" class="col-sm-9 col-xs-12">
+				<div class="row">
+					<div class="col-xs-11">
 
+						<div class="block">
+							<div class="title">Experiencia</div>
+							<div class="body">
+								<table class="table table-orange">
+									<tbody>
+										<tr>
+											<td>2014 - 2015</td>
+											<td>
+												<ul>
+													<li><h4><strong>— Proyecto SIGBA</strong></h4></li>
+													<li><i class="highlight">Sistema Integral de Gestión de la Provincia de Buenos Aires</i></li>
+													<li>Herramienta web orientada a la integración y comunicación de diferentes departamentos del Gobierno de la Provincia con énfasis en la accesibilidad de la información. Mi aporte al proyecto como Administrador de Bases de Datos me puso al frente de una enorme cantidad de información con la responsabilidad de mantener la consistencia y eficiencia entre los diferentes módulos de la plataforma. Mis responsabilidades como Desarrollador Web incluyeron la implementación de varios diseños de vistas, y la implementación e integración de varios módulos dentro del sitio.</li>
+												</ul>
+											</td>
+										</tr>
+										<tr>
+											<td>2014 - </td>
+											<td>
+												<ul>
+													<li><h4><strong>— Freelance</strong></h4></li>
+													<li><i class="highlight">Desarrollo Web</i></li>
+													<li>Desarrollo de proyectos orientados a la web. Maquetación web. Diseño de base de datos. Implementación utilizando herramientas CMS, PHP, Twig, HTML, Bootstrap, CSS, JQuery. Diseños web responsive. Utilización de tecnología AJAX. Seguridad web y prevención XSS, CSRF, SQLInjection.</li>
+													<br>
+													<li><i class="highlight">Desarrollo Android</i></li>
+													<li>Implementación de aplicaciones para dispositivos Android. Apps de entretenimiento, negocios y compras, herramientas personalizadas. Diseños responsive. Comunicación con servicios en la nube. Integración de herramientas analíticas y de monetización.</li>
+												</ul>
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td>
+												<ul>
+													<li><h4><strong>— Autodidacta entusiasta</strong></h4></li>
+													<li><i class="highlight">Como apasionado informático estoy interesado en estar siempre actualizado con las nuevas tecnologías, sobre todo en el desarrollo de alternativas de software libre.</i></li>
+													<br>
+													<li><u class="highlight">Aprendizaje de herramientas especializadas.</u> </li>
+													<li><strong>Modelado y animación:</strong> 3DStudioMax, Blender.</li>
+													<li><strong>Edición de video:</strong> Adobe After Effects, Adobe Premiere Pro, Kdenlive</li>
+													<li><strong>Edición de imagenes:</strong> Adobe Photoshop, GIMP, Krita, Inkscape.</li>
+													<li><strong>Edición de audio:</strong> Audacity, LMMS, FLStudio. </li>
+													<br>
+													<li><u class="highlight">Herramientas para creación de videojuegos</u></li>
+													<li><strong>Motores:</strong> Unity 3D, Godot Engine.</li>
+													<li><strong>Librerías/Frameworks:</strong> LibGDX, Pixi.js, LÖVE, CraftyJS.</li>
+													<li><strong>Otras herramientas:</strong> Tiled, TexturePacker, Spine.</li>
+													<br>
+													<li><u class="highlight">Programación</u></li>
+													<li><strong>Lenguajes:</strong> Java, PHP, SQL, C++, Lua, Python, HTML, Javascript, BASH.</li>
+													<li><strong>Frameworks &amp; Herramientas:</strong> Spring, Struts2, JDBC, JPA, Hibernate, PostgreSQL, SQLite, Twig, JQuery, Bootstrap, Jekyll, Git.</li>
+												</ul>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="title">Educación</div>
+							<div class="body">
+								<table class="table table-orange">
+									<tbody>
+										<tr>
+											<td>2016</td>
+											<td>
+												<ul>
+													<li><h4><strong>— Analista Programador Universitario</strong></h4></li>
+													<li>Facultad de Informática UNLP</li>
+												</ul>
+											</td>
+										</tr>
+										<tr>
+											<td> - </td>
+											<td>
+												<ul>
+													<li><h4><strong>— Licenciatura en Sistemas</strong></h4></li>
+													<li>Facultad de Informática UNLP</li>
+												</ul>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="block">
+							<div class="title">Habilidades</div>
+							<br>
+							<div class="body">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-xs-6">
+											<strong>— Profesionales</strong>
+											<table class="table">
+												<tbody>
+													<tr>
+														<td><small>OOP</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Documentación</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Java</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star-half-o fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>PHP</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star-o fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Lenguajes Web</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="col-xs-6">
+											<strong>— Personales</strong>
+											<table class="table">
+												<tbody>
+													<tr>
+														<td><small>Idioma Inglés</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star-o fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Comunicación</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star-half-o fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Compromiso</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+														</td>
+													</tr>
+													<tr>
+														<td><small>Adaptabilidad</small></td>
+														<td class="td-star">
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+															<i class="fa fa-star fa-1x"></i>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div><!--container-->
+							</div>
+						</div><!--block-->
+						
+						<div class="spacer-lg"></div>
+
+					</div>
+				</div>
+			</div><!--col-right-->
+		</div>
+	</div>
+	
+	<!--JQuery-->
+	<script src="/assets/site/lib/jquery-2.1.1/jquery-2.1.1.min.js"></script>
+	<!--Bootstrap-->
+	<script src="/assets/site/lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+	
 </body>
 </html>
