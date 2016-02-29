@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "#1GAM February Disaster: Home"
+date:   2016-02-29 19:40:32
+categories:
+ - blog
+tags:
+ - godot
+ - 1GAM
+ - fail
+comments: true
+images:
+ - "home/1.png"
+ - "home/2.png"
+ - "home/3.png"
+downloads:
+ - info: "Download the WIP"
+   url: "/assets/posts/home/home.apk"
+   icon: "android.png"
+---
+
+<div style="text-align:center;">
+	<h2>#1GAM Disaster: Home (WIP?)</h2>
+</div>
+<br>
+<!--more-->
+
+<p>I know I'm supposed to release a finished game each month, but this time I only had a day to come up with something.<br>
+This is the first time I do something 3D and I invested more time in Blender that I've planned.
+</p>
+<p>It's puzzle game in 3D where you control some pieces, each one with different effects.<br>
+The goal of the game is to take the player piece trough the board avoiding obstacles and reach the other side (the castle).
+</p>
+
+<p>I guess I will have to rethink and go back to the original idea: a classic board game with dices.<br>
+Maybe I will finish this game sometime later, but for now I just want to forget February and start fresh on March with a new original idea.</p>
+<p>If you're morbid curious about the game you can download the apk for Android and take a look.</p>
+<br>
+
+{% include post_images.html %}
+
