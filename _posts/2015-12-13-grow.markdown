@@ -14,6 +14,9 @@ images:
  - "grow/2.png"
  - "grow/3.png"
 downloads:
+ - info: "Play now on the browser (Chrome is recommended)"
+   url: "/assets/posts/grow/html/grow.html"
+   icon: Chrome.png
  - info: "Download now on Google PlayStore"
    url: https://play.google.com/store/apps/details?id=io.github.fede0d.grow
    icon: google_play.png
