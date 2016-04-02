@@ -29,6 +29,8 @@ downloads:
 
 <!--more-->
 
+{% include post_videos.html %}
+
 {% include post_images.html %}
 
 <p>I wanted to add other types of enemies, and two more boss battles. Sadly I didn't have the time and the other bosses where too ambitious to complete in a month.</p>
