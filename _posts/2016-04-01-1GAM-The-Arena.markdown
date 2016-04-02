@@ -9,6 +9,8 @@ tags:
  - godot
  - 1GAM
 comments: true
+videos:
+ - https://www.youtube.com/embed/zeuOsDJalzY
 images:
  - "arena/11.png"
  - "arena/4.png"
