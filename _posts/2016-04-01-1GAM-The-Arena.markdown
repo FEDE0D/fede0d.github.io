@@ -19,6 +19,9 @@ downloads:
  - info: "Download from GameJolt (Windows & Linux)"
    url: "http://gamejolt.com/games/the-arena/137906"
    icon: "gamejolt.png"
+ - info: "Download from Google Play (Android)"
+   url: "https://play.google.com/store/apps/details?id=io.github.fede0d.thearena"
+   icon: "google_play.png"
 ---
 
 <div style="text-align:center;">
