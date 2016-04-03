@@ -8,8 +8,11 @@ permalink: /games/
 		<div class="col-md-12">
 			<div class="panel panel-post">
 				<div class="panel-body">
-					<p>These are all the games that have been released.<br />
-					You will find some desktop games for <strong>Windows</strong>, <strong>GNU/Linux</strong> &amp; <strong>MacOS</strong> and also mobile games for <strong>Android</strong> phones and tablets.</p>
+					<div class="text-center">
+						<h3>Games</h3>
+						<span class="fa fa-gamepad fa-4x"></span>
+						<p>These are all the games that have been released.</p>
+					</div>
 				</div>
 				<div class="panel-footer">				
 					All the games listed here are <strong>FREE</strong> to download! So give them a try!
@@ -18,7 +21,8 @@ permalink: /games/
 		</div>
 	</div>
 </div>
-<div class="row">
+
+<div class="row">
 	
 	{% assign game_posts = ''|split:',' %}
 	

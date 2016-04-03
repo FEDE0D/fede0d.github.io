@@ -2,12 +2,15 @@
 layout: main
 ---
 
+<script type="text/javascript" src="/posts.js"></script>
+
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="panel panel-post">
 				<div class="panel-body text-center">
-					<h3>Developer blog</h3>
+					<h3>Game Dev Blog</h3>
+					<span class="fa fa-pencil-square fa-4x"></span>
 					<p>Toughts on game dev, gameplays, tutorials and more</p>
 				</div>
 				<div class="panel-footer">
@@ -19,6 +22,7 @@ layout: main
 </div>
 
 <div class="row">
+	
 	<div class="col-md-12">
 		{% for post in site.posts %}
 			{% if post.categories contains "blog" %}
@@ -28,7 +32,7 @@ layout: main
 							<img src="{{site.baseurl}}/assets/site/img/logo.png"/>
 							{{post.title}}
 						</a>
-						<span class="pull-right text-muted">{{post.date | date:"%D"}}</span>
+						<span class="pull-right">{{post.date | date:"%D"}}</span>
 					</div>
 					<div class="panel-body">
 						{% if post.images.size > 0 %}

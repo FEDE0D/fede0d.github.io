@@ -9,7 +9,7 @@ permalink: /contact/
 			<div class="panel panel-post">
 				<div class="panel-body">
 					<p style="padding: 8px 0px;">
-						<strong><i>Contact me!</i></strong>
+						<strong><i>Get in touch!</i></strong>
 					</p>
 
 					If you want to contact me you can reach me at <a href="javascript:showEmail()" id="aEmail">show email</a> and I will reply as soon as posible.

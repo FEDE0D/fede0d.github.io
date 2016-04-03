@@ -1,3 +1,7 @@
+/*@import url(https://fonts.googleapis.com/css?family=Numans);*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900|Roboto+Condensed:400,300,700|Open+Sans+Condensed:300,700,300italic);
+
 @font-face {
 	font-family: "LemonMilk";
 	src: url("/assets/site/fonts/LemonMilk.otf");
@@ -7,9 +11,6 @@
 	font-family: "Grinched";
 	src: url("/assets/site/fonts/Grinched 2.0.ttf");
 }
-
-/*@import url(https://fonts.googleapis.com/css?family=Numans);*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,300);
 
 html, body {
 	min-width: 320px;
@@ -22,7 +23,7 @@ body{
 	background-color: #222222;
 	background-image: url(/assets/site/img/background-pattern.png);
 	background-attachment: fixed;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed';
 }
 
 .navbar-brand, .navbar-nav li a {
