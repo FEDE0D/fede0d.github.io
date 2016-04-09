@@ -10,8 +10,16 @@ layout: test-layout
 	
 	    <title>{{site.title}} {% if page.title %} - {{ page.title }}{% endif %}</title>
 	    <meta name="description" content="{{ site.description }}">
-	
+		
 	    <link rel="shortcut icon" type="image/png" href="/assets/site/img/logo.png"/>
+		
+		<!--OpenGraph-->
+		<meta property="og:url" content="{{site.url}}{{page.url}}"/>
+		<meta property="og:title" content="{{site.title}} {% if page.title %} - {{ page.title }}{% endif %}" />
+		<meta property="og:type" content="blog"/>
+		<meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}"/>
+		<meta property="og:image" content="{% if page.images %}{{site.url}}/assets/posts/{{page.images[0]}}{% else %}{{site.url}}/assets/site/img/logo.png{% endif %}" />
+		
 
 	    <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->

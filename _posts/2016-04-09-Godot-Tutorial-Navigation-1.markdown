@@ -2,6 +2,7 @@
 layout: post
 title:  "Godot Tutorial: Pathfinging - Part 1"
 date:   2016-04-09 12:52:32
+description: "Godot Tutorial: Learn Pathfinding and Navigation in Godot Engine. A small tutorial and a project available for download."
 categories:
  - blog
 tags:
