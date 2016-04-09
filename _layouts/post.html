@@ -14,6 +14,22 @@ layout: main
 								<a href="#" style="font-size: 80%">{{tag}}</a>
 							{% endfor %}
 							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						<span class="pull-right">
+							<!-- Load Facebook SDK for JavaScript -->
+							<div id="fb-root"></div>
+							<script>(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+							<!-- Your share button code -->
+							<div class="fb-share-button" 
+								data-href="{{site.url}}{{page.url}}" 
+								data-layout="icon_link">
+							</div>
+						</span>
 					</div>
 				</div>
 				<div class="panel-body">
@@ -39,10 +55,17 @@ layout: main
 				</div>
 				{% endif %}
 				
+				<div class="well">
+					<a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" title="Share on Facebook" target="_blank" class="btn btn-link">
+						<span class="fa fa-facebook fa-2x"></span> Share this article! 
+					</a>
+				</div>
+				
+				
 				{% if page.comments == false %}
 				<!--no comments allowed-->
 				{% else %}
-				<hr style="margin-top: 8px;"/>
+				<!--<hr style="margin-top: 8px;"/>-->
 				<div class="panel-body">
 					<div class="col-sd-12">
 						<div class="panel panel-default" style="margin: 16px 4px">
