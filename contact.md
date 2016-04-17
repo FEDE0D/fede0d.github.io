@@ -22,6 +22,7 @@ permalink: /contact/
 
 					<p>
 						Read my CV <a href="/assets/CV/cv.html">here</a>.
+						Download here: <a href="/assets/CV/CV - Federico Pacheco.pdf">CV.pdf</a>
 					</p>
 					
 				</div>
