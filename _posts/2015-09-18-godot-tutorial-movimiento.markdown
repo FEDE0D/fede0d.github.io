@@ -26,3 +26,7 @@ En este tutorial explico como crear un personaje y un nivel con plataformas simp
 
 {% include post_videos.html %}
 {% include post_images.html %}
+
+Descargas:
+https://github.com/FEDE0D/fede0d.github.io/raw/056d488669f57408a9772966ef07705886b36260/tutoriales/godot/tutorial_1_PARTE1.zip
+https://github.com/FEDE0D/fede0d.github.io/raw/056d488669f57408a9772966ef07705886b36260/tutoriales/godot/tutorial_1_PARTE2.zip
