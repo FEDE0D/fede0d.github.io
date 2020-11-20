@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Graficador de tablero clase de equivalencia modulo m</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Graficador de tablero clase de equivalencia modulo m</h1>
+        <small>Federico Pacheco, UNLP Informática, Matemática 4, 2020</small>
+
+        <form id="form" action="#">
+            <label>Ingrese el módulo</label>
+            <input id="in-modulo" type="number" min="0" value="3" />
+            <button id="btn-calcular" type="submit">Calcular</button>
+        </form>
+
+        <h3 id="z-set"></h3>
+
+        <h3>Suma</h3>
+        <div id="tablero-suma" class="tablero"></div>
+
+        <h3>Producto</h3>
+        <div id="tablero-producto" class="tablero"></div>
+    </body>
+</html>
