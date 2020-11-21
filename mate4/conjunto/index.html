@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Propiedades de un conjunto finito</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Propiedades de un conjunto finito</h1>
+        <small>Federico Pacheco, UNLP Informática, Matemática 4, 2020</small>
+
+        <form id="form" action="#">
+            <label>Ingrese el dominio A</label>
+            <div style="padding:2px; margin-bottom:8px">
+                <input id="in-domain" type="text" placeholder="Ej: a, b, c" value="1, 2, 3, 4" style="font-size: 20px;min-width:30%"/>
+            </div>
+            <label>Ingrese el conjunto R</label>
+            <div style="padding:2px; margin-bottom:8px">
+                <input id="in-set" type="text" placeholder="Ej: (a, b); (b, c)" value="(1, 1); (2, 2); (2, 3); (3, 2); (4, 4); (3, 3)" style="font-size: 20px;min-width:30%"/>
+            </div>
+            <button id="btn-calcular" type="submit">Calcular</button>
+            
+        </form>
+
+        <h2 id="out-domain"></h2>
+        <h2 id="out-set"></h2>
+        <div>
+            <ul>
+                <li><span id="out-reflexividad"></span> <a href="https://es.wikipedia.org/wiki/Relaci%C3%B3n_reflexiva" target="_blank">📎</a></li>
+                <li><span id="out-simetria"></span> <a href="https://es.wikipedia.org/wiki/Relaci%C3%B3n_sim%C3%A9trica" target="_blank">📎</a></li>
+                <li><span id="out-antisimetria"></span> <a href="https://es.wikipedia.org/wiki/Relaci%C3%B3n_antisim%C3%A9trica" target="_blank">📎</a></li>
+                <li><span id="out-transitividad"></span> <a href="https://es.wikipedia.org/wiki/Relaci%C3%B3n_transitiva" target="_blank">📎</a></li>
+                <li><span id="out-tipo"></span></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Ejemplos</h4>
+            <button id="btn-identidad" type="button">Identidad</button>
+            <button id="btn-equivalencia" type="button">Equivalencia</button>
+        </div>
+
+    </body>
+</html>
