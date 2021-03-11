@@ -1,25 +1,4 @@
----
-layout: post
-title:  "Vuelteros!"
-date:   2021-03-10 22:08:32
-description: "Vuelteros: un juego para beber y divertirte con amigos."
-categories:
- - blog
-tags:
- - vuelteros
- - mobile
- - flutter
-comments: true
-images:
- - "vuelteros/logo.png"
-download-title: "Descargalo y probalo ahora!"
-downloads:
- - info: "Descargalo en Google Play"
-   url: "https://play.google.com/store/apps/details?id=com.vuelteros.app"
-   icon: "google_play.png" 
----
-
-<div style="text-align:center;">
+I"<div style="text-align:center;">
 	<h2>Vuelteros</h2>
 	<h3>Un juego ideal para animar las previas. Servite algo de tomar y a divertirse!</h3>
 </div>
@@ -73,3 +52,4 @@ downloads:
 		</div>
 	</div>
 </div>
+:ET
