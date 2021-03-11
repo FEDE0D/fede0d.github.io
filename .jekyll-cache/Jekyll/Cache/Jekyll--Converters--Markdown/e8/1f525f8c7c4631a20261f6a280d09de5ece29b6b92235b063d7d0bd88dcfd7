@@ -1,0 +1,27 @@
+I"Å<p>Jump from platform to platform while collecting as many points as you can.
+Be careful not to fall! There are two game modes: Normal and Arcade. In normal mode you set the length of the track. In arcade mode the track is infinite.</p>
+
+<!--more-->
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/WYS/0.jpg">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/WYS/0.jpg" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+:ET

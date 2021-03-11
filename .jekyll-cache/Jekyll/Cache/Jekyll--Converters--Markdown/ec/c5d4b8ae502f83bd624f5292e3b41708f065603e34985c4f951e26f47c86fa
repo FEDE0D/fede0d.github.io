@@ -1,0 +1,73 @@
+I"R<p>Collect as many coins as you can in 30 seconds and beat your highscore!</p>
+<p>This game is available for mobile devices trough the Google Playstore</p>
+<!--more-->
+
+<p><strong>How to play:</strong><br /></p>
+
+<p>Tap the chests to open them and release some coins.<br />
+Touch the coins to collect them.<br />
+<br />
+Collect as many coins as you can in 30 seconds to win!<br /></p>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/treasure/2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/treasure/2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/treasure/1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/treasure/1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/treasure/3.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/treasure/3.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/treasure/4.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/treasure/4.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+:ET

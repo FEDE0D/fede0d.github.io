@@ -1,0 +1,13 @@
+I"S<h1>Planet Rider</h1>
+<p>Escape from this infinite alien desert using your awesome hover bike!</p>
+<p><br /></p>
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<img src="/assets/posts/planet-rider/featured.png" class="img-responsive img-thumbnail center-block" />
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+:ET

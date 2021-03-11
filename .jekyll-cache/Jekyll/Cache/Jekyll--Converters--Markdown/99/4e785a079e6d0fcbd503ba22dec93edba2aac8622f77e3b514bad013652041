@@ -1,0 +1,134 @@
+I"Ú<h1>Planet Rider</h1>
+<p>Escape from this infinite alien desert using your awesome hover bike!</p>
+<p><br /></p>
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<img src="/assets/posts/planet-rider/featured.png" class="img-responsive img-thumbnail center-block" />
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+<!--more-->
+
+<p><br /></p>
+
+<blockquote>
+	A delivery man is lost on this alien planet and the only way to return home is to escape using his hover bike. <br />
+	Collect gasoline cans and power the engines on this long trip to the rescue zone.<br />
+	The levels are randomly generated so each play is different!
+</blockquote>
+
+<h3>How To Play</h3>
+<p>
+	Press the <code>LEFT</code> and <code>RIGHT</code> arrows to move.<br />
+	Press the <code>UP</code> arrow to jump and avoid obstacles.<br />
+	Collect items like gasoline cans and power-ups to fuel the engines on this long journey.<br />
+</p>
+<p>
+	<strong class="text-muted">On desktop</strong><br />
+	Press the <code>LEFT</code> and <code>RIGHT</code> keys to move.<br />
+	Press the <code>SPACEBAR</code> to jump
+</p>
+<p>
+	This game was made for the <a href="http://onegameamonth.com/">#1GAM Challenge</a> on October 2015.<br />
+</p>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/4.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/4.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/3.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/3.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/5.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/5.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/planet-rider/6.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/planet-rider/6.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<h2>Source Project available</h2>
+
+<p>
+	The source project is publicly available on GitHub for anyone to take a look. <br />
+	You can download it, study it and make changes to the project in any way you want.
+</p>
+:ET

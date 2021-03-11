@@ -1,0 +1,36 @@
+I"„<p>An update on <strong>Planet Rider</strong>. Now the game has better graphics and the levels are generated using almost 30 blocks.</p>
+
+<!--more-->
+
+<p>Changes made since last video:</p>
+<ul>
+	<li>Better graphics for level blocks </li>
+	<li>Level generation includes more blocks for content variation</li>
+	<li>Items &amp; drops: boxes, gas cans, power-ups &amp; repair kit.</li>
+	<li>Enemies &amp; traps: cactus, swamp &amp; pits</li>
+	<li>UI improvements</li>
+	<li>New controls focusing on mobile</li>
+</ul>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHB32-hmQbs" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+<p>Next time I will make a tutorial about level creation using Godot Engine. In the meantime I will leave the link to the complete project in the download section bellow.</p>
+<p>Until next time!</p>
+:ET

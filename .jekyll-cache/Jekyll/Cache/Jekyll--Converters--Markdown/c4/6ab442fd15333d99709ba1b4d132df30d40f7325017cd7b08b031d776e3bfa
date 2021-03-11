@@ -1,0 +1,25 @@
+I""<div style="text-align:center;">
+	<h2>Vuelteros</h2>
+	<h3>Un juego ideal para animar las previas. Servite algo de tomar y a divertirse!</h3>
+</div>
+<!--more-->
+
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4"><img class="img img-responsive img-thumbnail center-block" src="/assets/posts/vuelteros/main.png" /></div>
+	<div class="col-md-4"></div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 img-gallery-make padding">
+		<div class="container">
+			<h2>Qué es Vuelteros?</h2>
+
+			
+		</div>
+
+	</div>
+</div>
+<!--/.row-->
+
+:ET

@@ -1,0 +1,116 @@
+I".<h1>Grow!</h1>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<img src="/assets/posts/grow/icon.png" class="img-responsive img-thumbnail img-circle center-block" style="max-width: 256px;" />
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+<!--more-->
+
+<blockquote>Endless mazes! Run against the clock and find the exit.</blockquote>
+
+<p>
+	A seed has sprouted in the deep. Guide the plant trough the deep mazes and out to the bright light of the sun.<br />
+	You have to find the exit before the plant dies.
+</p>
+<p>
+	<b>Oxigen</b>: find the exit before the sprout suffocates.<br />
+	<b>Nutrients</b>: eat bugs and rats to stay strong.<br />
+	You can make tiny and simple mazes or enormous and harder.<br />
+</p>
+
+<p><br /></p>
+
+<p>
+	This game was made for the Ludum Dare #34
+</p>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/grow/1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/grow/1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/grow/2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/grow/2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/grow/3.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/grow/3.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<h2>My first <a href="http://ludumdare.com/compo/">#LD34</a></h2>
+
+<div class="row">
+	<div class="col-sd-12">
+		<div class="well-lg">
+			<img src="/assets/posts/grow/poster.png" class="img-responsive center-block img-thumbnail" style="max-height: 512px" />
+		</div>
+	</div>
+</div>
+
+<p>
+	I've been making games for <a href="http://onegameamonth.com/">#1GAM</a> for a time now. Some months I've missed the competition, other months I've quit or I couldn't even finish the game in time.
+	<br />
+	I wanted so much but I didn't have the time to participate in the past Ludum Date, the #33. So this time I did the LD compo.
+</p>
+<p>
+	It was hard.<br />
+	The first hour I came up with several game ideas that suited the theme: <b>TWO BUTTON CONTROLS</b> &amp; <b>GROWING</b>.<br />
+	Many of that ideas where discarded immediatly as they where too ambitious, too big to make it into 48hs.<br />
+</p>
+<p>
+	Then I came up with the idea of the maze and the seed growing underground looking for the sunlight.<br />
+<p class="text-center">...</p>
+<p>
+	6 hours later I already wanted to quit: there was no gameplay. There was no fun in the game.
+	I started up all again from the idea sketeches but none where working.
+</p>
+<p>
+	Long story short: <i>I started all over again 3 times in a row in less than 24 hours.</i><br />
+	I've have now 1 completed game (<span class="text-muted">Grow!</span>) and 3 other games in various states of development.
+</p>
+<p>
+	I hope the game was worth the weekend I spend making it.<br />
+	And I hope I've learned something good from the experience becouse I'm looking forward to <b>#LD35</b>.
+</p>
+</p>
+:ET

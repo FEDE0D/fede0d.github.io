@@ -1,0 +1,171 @@
+I"_ <div style="text-align:center;">
+	<h2>Vuelteros</h2>
+	<h3>Un juego ideal para animar las previas. Servite algo de tomar y a divertirse!</h3>
+</div>
+<!--more-->
+
+<div class="">
+	<img class="img img-responsive img-thumbnail center-block" src="/assets/posts/vuelteros/main.png" />
+</div>
+
+<div class="row">
+	<div class="col-md-12 img-gallery-make">
+
+		<h2>What is Pathfinding?</h2>
+
+		<p>Often in our games we have NPCs or other entities that need to move from point A to point B in a natural and realistic way. To do that we need to find a path between the two points and then make our character follow that path to solve the problem.</p>
+		<p>To get to that solution we need a Pathfinder, an algorithm that processes some data about the terrain and the two points and output a path for us to follow. That algorithm can be implemented using several aproaches: Dijkstra, A-star or the sample algorithm for tile-based navigation.</p>
+		<p>In Godot we have two main classes that will help with this problem: Navigation &amp; NavigationMesh (3D) and Navigation2D &amp; NavigationPolygon (2D)</p>
+
+		<h2>Navigation in Godot</h2>
+
+		<p>For this tutorial we are going to focus only on 2D but you can easily use the same aproach for 3D as well. Also there's another aproach at creating a navigable terrain by using tilemaps.</p>
+		<p>That said, suppose we have this portion of a map that the character needs to navigate.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/1.png" />
+			</div>
+		</div>
+		<br />
+
+		<p>We have a road of stones and an obstacle in the middle. Suppose we need to go from the left-top to the right-bottom portion of the screen.<br />
+		We could have our character moves in a line from point A to point B, but it would look weird as the character walks right trough the water fountain.<br />
+		Another way is to use a Path2D and a PathFollow2D to move the character, and that can be usefull in other circumstances, but is hard to setup, mantain and also it needs to be manually placed for every path in our game, so it would be very hard to escalate.</p>
+
+		<p>What we will do is use the Navigation2D node. A Navigation2D node lets us input the information of the terrain (aka where the character can and can't walk) and then offers us some useful methods for terrain navigation. We can ask for information like: if I'm here and I need to go there, give me the path that I need to follow, or whats the point in your navigation info that is the closest to where I am now.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/2.png" />
+				<i>Add a Navigation2D node to the scene</i>
+			</div>
+		</div>
+		<br />
+
+
+		<p>What we need to do next is to tell the Navigation2D node where our character can and can't walk. We do that by creating a 2D Polygon with that information. Godot gives us a tool to make polygons for navigation terrains called NavigationPolygonInstance. If we put a NavigationPolygonInstance as a child of a Navigation2D node, this will use it's polygon information to calculate all we need.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/3.png" />
+				<i>Add a NavigationPolygonInstance as a child of the Navigation2D node.</i>
+			</div>
+		</div>
+		<br />
+
+		<p>Then we can click on the Pencil Tool from the toolbar and draw our navigation polygon over the map. Godot will ask if you want to create a new NavigationPolygon resource and add it to the node, click Create.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/4.png" />
+			</div>
+		</div>
+		<br />
+
+
+		<p>Now we have everything we need to navigate the terrain! We use the methods available in the Navigation2D class to find the path and we're good to go. Add this script to the root node:</p>
+
+		<div class="well">
+<pre>
+# root node
+extends Node2D
+
+onready var navigation2D = get_node("Navigation2D")
+onready var tester = get_node("Tester")
+
+func _ready():
+	set_process_input(true)
+
+func _input(event):
+	if event.type == InputEvent.MOUSE_MOTION:
+		var points = navigation2D.get_simple_path(get_global_mouse_pos(), Vector2(760, 560), false)
+		tester.draw_points(points)
+</pre>
+		</div>
+
+		<p>In this case I've added a script to the root node of our scene that will process the motion of the mouse and when it's moving it will ask for a path from the mouse cursor to a point in the right-bottom portion of the screen.</p>
+
+		<p>I'm using the method "get_simple_path" that takes a starting and destination point and a boolean. This boolean indicates if we want to optimize the calculation, usefull for bigger terrains but for now we leave this on false. This method will calculate the correct path and will output a Vector2Array (a collection of points in the path).</p>
+
+		<p>What I do next is send this array of points to a custom node I've created in order to show this points on the screen. What this node does is take the points and then draw circles and lines on the screen where the points are to help us see what's going on. This is the code for the Tester node:</p>
+
+		<div class="well">
+<pre>
+# Tester node
+extends Node2D
+
+var color = Color("FEDE0D")
+var points = null
+
+func draw_points(points):
+	self.points = points
+	update() # updates the state of this node, _draw() gets called
+
+func _draw():
+	if points != null:
+		for i in range(0, points.size()): # loop over the points
+			draw_circle(points[i], 10.0, color) # draw circle
+			if i &gt; 0:
+				draw_line(points[i-1], points[i], color) # draw lines
+</pre>
+		</div>
+
+		<i>Don't worry, this node is included in the downloadable project. For now I've created this Tester node and I've added it to our main scene.</i>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/5.png" />
+			</div>
+		</div>
+		<br />
+
+		<p>Now we have all we need to test this. Let's run the scene and see what happens:</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/6.png" />
+			</div>
+		</div>
+		<br />
+
+		<p>When we move the mouse we trigger the _input event on our scene, where we ask for a new set of points to the Navigation2D node. Then we draw this points to the screen. But, we have a problem: the path goes right trough the water fountain!</p>
+		<p><i>"But you said the path would go around the obstacles!"</i></p>
+
+		<p>That is true, but we didn't tell Godot where the obstacles are yet. To do that we will go back to the NavigationPolygonInstance and edit the polygon. Click on the pencil tool and draw a circle around the obstacle. Note how now we are excluding terrain instead of adding it to the polygon.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/7.png" />
+			</div>
+		</div>
+		<br />
+
+		<p>If we run the project again now we see that the path is correct and goes around the water fountain.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/8.png" />
+			</div>
+		</div>
+		<br />
+		
+		<br />
+
+		<p>Now we can use the information given by the Navigation2D node to control our characters. Simply move the character to the first point of the path, then the second, then the third and so on. It's important to know that this information alone it's note sufficient to build a full automated character. If we want to do that we need some basic knowledge of AI behaviours, some state-machine magic, maybe a couple of raycasts.</p>
+		<br />
+		<p>Part II will be focused on Navigation2D for tiledmaps. I hope this was useful for you and help you get started on terrain navigation for Godot Engine.</p>
+
+	</div><!--/.col-md-12-->
+</div>
+<!--/.row-->
+
+:ET

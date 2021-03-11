@@ -1,0 +1,69 @@
+I"O<div style="text-align:center;">
+	<h2>#1GAM Disaster: Home (WIP?)</h2>
+</div>
+<p><br />
+<!--more--></p>
+
+<p>I know I'm supposed to release a finished game each month, but this time I only had a day to come up with something.<br />
+This is the first time I do something 3D and I invested more time in Blender that I've planned.
+</p>
+<p>It's puzzle game in 3D where you control some pieces, each one with different effects.<br />
+The goal of the game is to take the player piece trough the board avoiding obstacles and reach the other side (the castle).
+</p>
+
+<p>I guess I will have to rethink and go back to the original idea: a classic board game with dices.<br />
+Maybe I will finish this game sometime later, but for now I just want to forget February and start fresh on March with a new original idea.</p>
+<p>If you're morbid curious about the game you can download the apk for Android and take a look.</p>
+<p><br /></p>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/home/1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/home/1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/home/2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/home/2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/home/3.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/home/3.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+:ET

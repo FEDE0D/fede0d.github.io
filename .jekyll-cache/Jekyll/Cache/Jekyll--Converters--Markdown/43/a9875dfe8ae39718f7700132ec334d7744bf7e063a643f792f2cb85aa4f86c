@@ -1,0 +1,10 @@
+I"	<h1>Grow!</h1>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<img src="/assets/posts/grow/icon.png" class="img-responsive img-thumbnail img-circle center-block" style="max-width: 256px;" />
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+:ET

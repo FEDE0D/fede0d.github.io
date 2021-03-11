@@ -1,0 +1,56 @@
+I"»<p>The action takes place inside a cubic weird facility.
+Explore the rooms as they move though the cube. Fight enemies and traps and escape! This game was made for the <a href="http://onegameamonth.com/">1GAM Challenge</a></p>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/minicube/2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/minicube/2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/minicube/1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/minicube/1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/minicube/0.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/minicube/0.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--more-->
+
+:ET

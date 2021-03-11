@@ -1,0 +1,99 @@
+I",<p>This is a test project I made to learn and familiarize with the development in <strong><a href="http://www.godotengine.org/">Godot Engine</a></strong>.
+It is a simple game where the player bounces elements above the head.<br />
+It took me about 10 hours realtime inside Godot and about the double for the assets ( I’m not a art person :) )
+<br /><br /></p>
+
+<!--more-->
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EqZlxLfnWXQ" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+<p>Engine <strong>features</strong> used:</p>
+<ul>
+	<li>2d scenes, scene transitions &amp; scene instancing</li>
+	<li>sprites</li>
+	<li>animations</li>
+	<li>music &amp; sound</li>
+	<li>scripting</li>
+	<li>menus &amp; basic GUI</li>
+	<li>Mobile &amp; desktop deployement</li>
+	<li>2D Particle System</li>
+	<li>Timers</li>
+	<li>Basic Input polling &amp; Input Actions</li>
+	<li>Basic 2D physics</li>
+</ul>
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/tgol/tgol1.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/tgol/tgol1.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/tgol/tgol2.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/tgol/tgol2.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+				
+				
+				<div class="row">
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/tgol/tgol5.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/tgol/tgol5.png" />
+						</a>
+					</div>
+				</div>
+				
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<p>I’m sorry for the code mess and the structure of the game in general. This is my first try at <strong>Godot</strong>, so a lot of things I had to learn along the way.<br />
+You can take a look at the <a href="https://bitbucket.org/fede0d/the-game-of-life">source code at bitbucket</a>.
+<br /><br />
+Download the game project and try it out! It’s made using version 1.0 of Godot Engine, but it should work without problems in <strong>v1.1</strong> when it comes out.
+<br /><br />
+You can reach me on Twitter <a href="http://twitter.com/fede0d">@fede0d</a> or send me an email at <a href="mailto:federicogpacheco@gmail.com">federicogpacheco@gmail.com</a></p>
+
+:ET

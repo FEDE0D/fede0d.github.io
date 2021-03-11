@@ -48,7 +48,7 @@ layout: main
 					<ul class="list-group">
 						{% for download in page.downloads %}
 						<li class="list-group-item">
-							<a href="{{download.url}}"><span class="glyphicon"><img style="max-width:48px; padding: 4px;" src="{{site.baseurl}}/assets/site/img/download-icons/{% if download.icon %}{{download.icon}}{% else %}download.png{% endif %}"></span> {{download.info}}</a>
+							<a href="{{download.url}}" target="_blank"><span class="glyphicon"><img style="max-width:48px; padding: 4px;" src="{{site.baseurl}}/assets/site/img/download-icons/{% if download.icon %}{{download.icon}}{% else %}download.png{% endif %}"></span> {{download.info}}</a>
 						</li>
 						{% endfor %}
 					</ul>

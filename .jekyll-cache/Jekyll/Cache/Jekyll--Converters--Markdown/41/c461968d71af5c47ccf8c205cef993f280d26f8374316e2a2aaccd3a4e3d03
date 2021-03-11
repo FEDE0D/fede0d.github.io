@@ -1,0 +1,92 @@
+I"~
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q81AvpkxhXo" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+<!--more-->
+
+<p>
+	In Magnetball you play as a metal ball with magnetic powers. Use the magnets all around you on the walls and the ceiling to propel yourself trough the levels while avoiding dangerous obstacles. 
+</p>
+<p>
+	<ul>
+		<li>Complete each level's challenges to get rewards and unlock new content!</li>
+		<li>Find secret items to unlock new areas!</li>
+		<li>Unlock new characters &amp; special levels!</li>
+		<li>Explore an enormus world with hundreds of levels!</li>
+	</ul>
+</p>
+
+<p style="padding: 26px;">
+	<img src="/assets/posts/magnetball-teaser/l6.png" class="pull-left" style="width: 128px" />
+	<img src="/assets/posts/magnetball-teaser/l7.png" class="pull-right" style="width: 128px" />
+</p>
+
+<p><br /></p>
+
+<div class="row characters" style="padding: 16px;">
+<h1 class="text-center">The gang</h1>
+	<div class="col-xs-12">
+		<h2>GG</h2>
+		<p>He is made of metal and he has electric powers that he uses to fight enemies.</p>
+		<img src="/assets/posts/magnetball-teaser/characters/gg.png" class="" />
+	</div>
+	<div class="col-xs-6">
+		<h2>Robby</h2>
+		<p>He's very bouncy, but also very heavy. He's doesn't fit trough pipes or narrow corridors :(</p>
+		<img src="/assets/posts/magnetball-teaser/characters/robby.png" class="" />
+	</div>
+	<div class="col-xs-6">
+		<h2>Norb</h2>
+		<p>The lightest of the magnetballs. He used to work as a security cam :D</p>
+		<img src="/assets/posts/magnetball-teaser/characters/norb.png" class="" />
+	</div>
+	<div class="col-xs-6">
+		<h2>Cooper</h2>
+		<p>Very fast and agile, but extreamly weak. Don't use him to break trough walls!</p>
+		<img src="/assets/posts/magnetball-teaser/characters/cooper.png" class="" />
+	</div>
+	<div class="col-xs-6">
+		<h2>Woody</h2>
+		<p>He's made of wood! Also very fat and slow, but as strong as an old tree.</p>
+		<img src="/assets/posts/magnetball-teaser/characters/woody.png" class="" />
+	</div>
+
+	<div class="col-xs-12 text-center" style="margin-top: 32px;">
+		<span>This game will come out on 2016 for Android devices.</span>
+	</div>
+</div>
+<style type="text/css">
+	.characters{
+		font-family: "Grinched";
+		font-size: 180%;
+	}
+	.characters img {
+		width: 256px;
+	}
+	.characters ul {
+
+	}
+	.characters li{
+		list-style: none;
+		padding: 4px;
+	}
+</style>
+
+:ET

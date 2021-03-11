@@ -1,0 +1,30 @@
+I"<p>En este tutorial explico como crear un personaje y un nivel con plataformas simple en Godot Engine. Al final de tutorial hay un link de descarga con el proyecto completo.</p>
+
+<!--more-->
+
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+				
+				<div class="col-md-4">
+					<div class="img-gallery">
+						<a href="#" data-mfp-src="/assets/posts/tutorial-movimiento/mahur.png">
+							<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-movimiento/mahur.png" />
+						</a>
+					</div>
+				</div>
+				
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<p>Descargas:
+https://github.com/FEDE0D/fede0d.github.io/raw/056d488669f57408a9772966ef07705886b36260/tutoriales/godot/tutorial_1_PARTE1.zip
+https://github.com/FEDE0D/fede0d.github.io/raw/056d488669f57408a9772966ef07705886b36260/tutoriales/godot/tutorial_1_PARTE2.zip</p>
+:ET

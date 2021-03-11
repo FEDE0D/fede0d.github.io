@@ -1,0 +1,43 @@
+I"	<div style="text-align:center;">
+	<h2>Vuelteros</h2>
+	<h3>Un juego ideal para animar las previas. Servite algo de tomar y a divertirse!</h3>
+</div>
+<!--more-->
+
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4"><img class="img img-responsive img-thumbnail center-block" src="/assets/posts/vuelteros/main.png" /></div>
+	<div class="col-md-4"></div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 img-gallery-make">
+
+		<h2>Qué es Vuelteros?</h2>
+
+		<p>Vuelteros es un juego por turnos en el que cada uno de los participantes tendrá que cumplir con los diferentes retos que se le presenten de acuerdo al tipo de ronda. 
+Cada reto tiene  premios y castigos, por eso: prepárate y llená tu vaso!</p>
+		<p>Esta app está pensada para acercarte más a tus amigos, pero también es ideal para esas previas en donde no conoces a todos y necesitas romper el hielo. 
+Las diferentes rondas proponen un sinfín de desafíos que van a hacer que tu reunión explote de risas.</p>
+		<p>Algunas de las rondas son: “Quién se anima”, “Qué preferís”, y “Preguntas incómodas”, entre muchas otras. </p>
+		<p>¡Llena tu vaso y prepárate para reír! Rompemos el hielo por vos!</p>
+		<p>¡Seguinos en nuestras redes sociales! </p>
+
+		<h2>Navigation in Godot</h2>
+
+		<p>For this tutorial we are going to focus only on 2D but you can easily use the same aproach for 3D as well. Also there's another aproach at creating a navigable terrain by using tilemaps.</p>
+		<p>That said, suppose we have this portion of a map that the character needs to navigate.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/1.png" />
+			</div>
+		</div>
+		<br />
+
+	</div>
+</div>
+<!--/.row-->
+
+:ET

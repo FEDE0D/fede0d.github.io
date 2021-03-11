@@ -1,0 +1,39 @@
+I"Å<div style="text-align:center;">
+	<h2>Vuelteros</h2>
+	<h3>Un juego ideal para animar las previas. Servite algo de tomar y a divertirse!</h3>
+</div>
+<!--more-->
+
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4"><img class="img img-responsive img-thumbnail center-block" src="/assets/posts/vuelteros/main.png" /></div>
+	<div class="col-md-4"></div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 img-gallery-make">
+
+		<h2>What is Pathfinding?</h2>
+
+		<p>Often in our games we have NPCs or other entities that need to move from point A to point B in a natural and realistic way. To do that we need to find a path between the two points and then make our character follow that path to solve the problem.</p>
+		<p>To get to that solution we need a Pathfinder, an algorithm that processes some data about the terrain and the two points and output a path for us to follow. That algorithm can be implemented using several aproaches: Dijkstra, A-star or the sample algorithm for tile-based navigation.</p>
+		<p>In Godot we have two main classes that will help with this problem: Navigation &amp; NavigationMesh (3D) and Navigation2D &amp; NavigationPolygon (2D)</p>
+
+		<h2>Navigation in Godot</h2>
+
+		<p>For this tutorial we are going to focus only on 2D but you can easily use the same aproach for 3D as well. Also there's another aproach at creating a navigable terrain by using tilemaps.</p>
+		<p>That said, suppose we have this portion of a map that the character needs to navigate.</p>
+
+		<br />
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<img class="img-responsive img-thumbnail" src="/assets/posts/tutorial-navigation-1/1.png" />
+			</div>
+		</div>
+		<br />
+
+	</div>
+</div>
+<!--/.row-->
+
+:ET

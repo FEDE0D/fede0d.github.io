@@ -1,0 +1,789 @@
+I"�W<script type="text/javascript" src="/posts.js"></script>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-post">
+				<div class="panel-body text-center">
+					<h3>Game Dev Blog</h3>
+					<span class="fa fa-pencil-square fa-4x"></span>
+					<p>Toughts on game dev, gameplays, tutorials and more</p>
+				</div>
+				<div class="panel-footer">
+					If you are looking for <strong>downloads</strong> and <strong>games</strong> you can <a href="/games/">click here</a> to check out the latest released games.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	
+	<div class="col-md-12">
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/04/09/Vuelteros.html">
+							<img src="/assets/site/img/logo.png" />
+							Godot Tutorial: Pathfinging - Part 1
+						</a>
+						<span class="pull-right">04/09/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/04/09/Vuelteros.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tutorial-navigation-1/thumbnail.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<div style="text-align:center;">
+	<h2>Godot Tutorials</h2>
+	<h3>Pathfinding - Part I</h3>
+</div>
+
+							<a href="/blog/2016/04/09/Vuelteros.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">navigation</a>
+							
+								 <a href="#">pathfinding</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/04/09/Godot-Tutorial-Navigation-1-copy.html">
+							<img src="/assets/site/img/logo.png" />
+							Godot Tutorial: Pathfinging - Part 1
+						</a>
+						<span class="pull-right">04/09/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/04/09/Godot-Tutorial-Navigation-1-copy.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tutorial-navigation-1/thumbnail.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<div style="text-align:center;">
+	<h2>Godot Tutorials</h2>
+	<h3>Pathfinding - Part I</h3>
+</div>
+
+							<a href="/blog/2016/04/09/Godot-Tutorial-Navigation-1-copy.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">navigation</a>
+							
+								 <a href="#">pathfinding</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/02/29/1GAM-Home.html">
+							<img src="/assets/site/img/logo.png" />
+							#1GAM February Disaster: Home
+						</a>
+						<span class="pull-right">02/29/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/02/29/1GAM-Home.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/home/1.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<div style="text-align:center;">
+	<h2>#1GAM Disaster: Home (WIP?)</h2>
+</div>
+<p><br /></p>
+
+							<a href="/blog/2016/02/29/1GAM-Home.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">1GAM</a>
+							
+								 <a href="#">fail</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/02/07/Godot-Extra-Tips-2.html">
+							<img src="/assets/site/img/logo.png" />
+							Godot Extra Tips #2: Scene Transitions
+						</a>
+						<span class="pull-right">02/07/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/02/07/Godot-Extra-Tips-2.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tip2/thumbnail.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<div style="text-align:center;">
+	<h2>Godot Extra Tip #2</h2>
+	<h3>Scene Transitions</h3>
+</div>
+
+							<a href="/blog/2016/02/07/Godot-Extra-Tips-2.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">transition</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/02/07/Godot-Extra-Tips-1.html">
+							<img src="/assets/site/img/logo.png" />
+							Godot Extra Tips #1: Responsive UI
+						</a>
+						<span class="pull-right">02/07/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/02/07/Godot-Extra-Tips-1.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tip1/thumbnail.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<div style="text-align:center;">
+	<h2>Godot Extra Tip #1</h2>
+	<h3>Responsive UI</h3>
+</div>
+
+							<a href="/blog/2016/02/07/Godot-Extra-Tips-1.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">transition</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/02/02/GGJ-2016.html">
+							<img src="/assets/site/img/logo.png" />
+							#GGJ2016: Tarani's Blessing
+						</a>
+						<span class="pull-right">02/02/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/02/02/GGJ-2016.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/GGJ2016/1.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							
+<div style="text-align: center">
+	<img src="/assets/posts/GGJ2016/ggj.png" style="max-width: 128px;" />
+</div>
+
+							<a href="/blog/2016/02/02/GGJ-2016.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">GGJ</a>
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">windows</a>
+							
+								 <a href="#">linux</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2016/01/19/magnetball-progress-3.html">
+							<img src="/assets/site/img/logo.png" />
+							Super MagnetBall HD - Progress 03
+						</a>
+						<span class="pull-right">01/19/16</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2016/01/19/magnetball-progress-3.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/magnetball-teaser/icon.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vKZAnDiwsYw" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+
+							<a href="/blog/2016/01/19/magnetball-progress-3.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">android</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/12/31/magnetball-gameplay.html">
+							<img src="/assets/site/img/logo.png" />
+							Super MagnetBall HD - Gameplay
+						</a>
+						<span class="pull-right">12/31/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/12/31/magnetball-gameplay.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/magnetball-teaser/icon.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TX4JUErRSjw" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+
+							<a href="/blog/2015/12/31/magnetball-gameplay.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">android</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/12/30/magnetball-teaser.html">
+							<img src="/assets/site/img/logo.png" />
+							Super MagnetBall HD - Teaser 1 &amp; Characters
+						</a>
+						<span class="pull-right">12/30/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/12/30/magnetball-teaser.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/magnetball-teaser/icon.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							
+<div class="panel-body">
+	<div class="well">
+		<div class="container-fluid">
+			
+			
+
+			
+			<div class="col-md-6 col-lg-12" style="padding-left: 6px; padding-right: 6px;">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q81AvpkxhXo" frameborder="0" allowfullscreen="" style="padding: 8px;"></iframe>
+				</div>
+			</div>
+			
+
+			
+		</div>
+	</div>
+</div>
+
+
+							<a href="/blog/2015/12/30/magnetball-teaser.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">android</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/10/25/planet-rider-video-2.html">
+							<img src="/assets/site/img/logo.png" />
+							Planet Rider: Update showcase
+						</a>
+						<span class="pull-right">10/25/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/10/25/planet-rider-video-2.html">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHB32-hmQbs" frameborder="0" allowfullscreen=""></iframe>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>An update on <strong>Planet Rider</strong>. Now the game has better graphics and the levels are generated using almost 30 blocks.</p>
+
+
+							<a href="/blog/2015/10/25/planet-rider-video-2.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">procedural</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/10/18/tutorial-singleton-music.html">
+							<img src="/assets/site/img/logo.png" />
+							Tutorial: Singleton Music Node in Godot Engine
+						</a>
+						<span class="pull-right">10/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/10/18/tutorial-singleton-music.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tutorial-singleton-music/thumbnail.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>In this tutorial we're going to use the Autoload functionality in Godot Engine to play music on the background without cuts between scene changes.</p>
+
+
+							<a href="/blog/2015/10/18/tutorial-singleton-music.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">tutorial</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/10/18/planet-rider-video.html">
+							<img src="/assets/site/img/logo.png" />
+							Planet Rider: Procedural Generation in-game
+						</a>
+						<span class="pull-right">10/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/10/18/planet-rider-video.html">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DV1NsEfFzc4" frameborder="0" allowfullscreen=""></iframe>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>Este es un avance de la implementación que hablaba en el <a href="/blog/2015/10/17/tutorial-procedural.html">post anterior</a> sobre generación de niveles a partir de reglas gramáticas.</p>
+
+
+							<a href="/blog/2015/10/18/planet-rider-video.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+								 <a href="#">procedural</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/10/17/tutorial-procedural.html">
+							<img src="/assets/site/img/logo.png" />
+							Procedural Generation para la creación de niveles - Parte I
+						</a>
+						<span class="pull-right">10/17/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/10/17/tutorial-procedural.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tutorial-procedural/image.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>En esta primera parte explico como llegué a conocer la temática de la creación de palabras a partir de reglas gramáticas y cómo se pueden utilizar en el desarrollo de videojuegos para la creación “infinita” de nombres de personajes, lugares, etc.</p>
+
+
+							<a href="/blog/2015/10/17/tutorial-procedural.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">blog</a>
+							
+								 <a href="#">spanish</a>
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">procedural</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/09/18/old-tracks.html">
+							<img src="/assets/site/img/logo.png" />
+							Old Tracks
+						</a>
+						<span class="pull-right">09/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/09/18/old-tracks.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/site/img/empty-img.png" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>Some years ago I made a bunch of short music themes and songs using FLStudio and other audio software. I wanted to learn how to produce music using computer software. Some of the themes were inspired by movie soundtracks like ‘The Bride Corpse’, ‘Coraline’ and ‘Edward Scissorhands’.</p>
+
+
+							<a href="/blog/2015/09/18/old-tracks.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">blog</a>
+							
+								 <a href="#">music</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/09/18/mahur-flight-alpha-gameplay.html">
+							<img src="/assets/site/img/logo.png" />
+							Mahur's Flight - Alpha gameplay
+						</a>
+						<span class="pull-right">09/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/09/18/mahur-flight-alpha-gameplay.html">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BDUujDM-v0I" frameborder="0" allowfullscreen=""></iframe>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>Captured demo gameplay for my upcoming platformer game “Mahur’s Flight” made using the Godot Engine.<br />
+The game is in alpha stage at the moment, so expect to see a lot of placeholders for music, sound effects and graphics.<br /></p>
+
+							<a href="/blog/2015/09/18/mahur-flight-alpha-gameplay.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">game</a>
+							
+								 <a href="#">godot</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/09/18/godot-pathfinding-using-tilemaps.html">
+							<img src="/assets/site/img/logo.png" />
+							Godot Engine: 2D pathfinding using Tilemaps
+						</a>
+						<span class="pull-right">09/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/09/18/godot-pathfinding-using-tilemaps.html">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/S-zEA_Ce1mk" frameborder="0" allowfullscreen=""></iframe>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>A demo project demonstrating pathfinding using a tilemap on the Godot Engine</p>
+
+
+							<a href="/blog/2015/09/18/godot-pathfinding-using-tilemaps.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">code</a>
+							
+								 <a href="#">godot</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+				<div class="panel panel-post">
+					<div class="panel-heading">
+						<a href="/blog/2015/09/18/godot-tutorial-movimiento.html">
+							<img src="/assets/site/img/logo.png" />
+							(Spanish) Godot Engine tutorial: Movimiento de un personaje
+						</a>
+						<span class="pull-right">09/18/15</span>
+					</div>
+					<div class="panel-body">
+						
+						<div class="col-md-3 hidden-xs">
+							<a href="/blog/2015/09/18/godot-tutorial-movimiento.html">
+								<img class="img-responsive img-thumbnail center-block" src="/assets/posts/tutorial-movimiento/mahur.png" style="max-height: 256px;" />
+							</a>
+						</div>
+						
+						<div class="col-md-9">
+							<p>En este tutorial explico como crear un personaje y un nivel con plataformas simple en Godot Engine. Al final de tutorial hay un link de descarga con el proyecto completo.</p>
+
+
+							<a href="/blog/2015/09/18/godot-tutorial-movimiento.html">Read more...</a>
+						</div>
+					</div>
+					<div class="panel-footer text-right">
+						<span class="text-muted">
+							
+								 <a href="#">tutorial</a>
+							
+								 <a href="#">godot</a>
+							
+							<span class="text-muted glyphicon glyphicon-tag"> </span>
+						</span>
+					</div>
+				</div>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+	</div>
+</div>
+:ET
